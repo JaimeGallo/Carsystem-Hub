@@ -1,9 +1,9 @@
 // Arranque, rutas, persistencia en el navegador y acciones de la interfaz.
-import * as C from './core.js?v=3';
-import { abrirDialogo, activarTooltips, aviso, cerrarDialogo, esc } from './ui.js?v=3';
-import { CARRO } from './iconos.js?v=3';
-import { formularioSolicitud, nombreCarro, pedido, refrescarResultados, tienda } from './tienda.js?v=3';
-import { asesor, bodega, coordinacion, gerencia, marketing } from './equipo.js?v=3';
+import * as C from './core.js?v=4';
+import { abrirDialogo, activarTooltips, aviso, cerrarDialogo, esc } from './ui.js?v=4';
+import { CARRO } from './iconos.js?v=4';
+import { formularioSolicitud, nombreCarro, pedido, refrescarResultados, tienda } from './tienda.js?v=4';
+import { asesor, bodega, coordinacion, gerencia, marketing } from './equipo.js?v=4';
 
 const CLAVE = 'carsystem-hub-demo-v1';
 const CLAVE_CARRO = 'carsystem-mi-carro';
@@ -36,6 +36,7 @@ function pintarMarco(seccion, sub) {
     b.innerHTML = `<div class="barra-int"><a class="marca" href="#/equipo">${LOGO}Carsystem <small>Equipo</small></a>
       <nav class="pestanas" aria-label="Áreas del equipo">${PESTANAS.map(([r, t]) => `<a class="enl" href="#/equipo/${r}" ${r === actual ? 'aria-current="page"' : ''}>${t}${num[r] ? `<span class="num">${num[r]}</span>` : ''}</a>`).join('')}</nav>
       <div class="barra-der"><a class="enl" href="#/">Ver tienda</a></div></div>`;
+    b.querySelector('[aria-current]')?.scrollIntoView({ block: 'nearest', inline: 'center' });
     p.innerHTML = '<div class="pie-int"><span>Prototipo con datos simulados. Caso educativo Estud-IA.</span><button class="btn-link" data-act="reiniciar">Reiniciar demo</button></div>';
   } else {
     const carro = nombreCarro(ctx.ui.carro);

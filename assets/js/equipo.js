@@ -2,8 +2,8 @@
 import {
   MOTIVOS_PERDIDA, SLA_LIMITE_MIN, cop, copM, dec, dur, indicadoresPiloto, mensajeCotizacion, minutosHastaPrecio,
   nivelSLA, pct, promesaEntrega, proximaRuta, sinSeguimiento, stockDe, sugerir,
-} from './core.js?v=3';
-import { barras, barras2, cab, esc, etiqueta, kpi, tabla, tacometro } from './ui.js?v=3';
+} from './core.js?v=4';
+import { barras, barras2, cab, esc, etiqueta, kpi, tabla, tacometro } from './ui.js?v=4';
 
 export const hace = (iso) => dur((Date.now() - new Date(iso)) / 60000);
 const EMPLEADOS = { E02: 'Patricia', E03: 'Andrés', E04: 'Valentina', E05: 'Jhon Fredy', E06: 'Óscar' };
@@ -126,7 +126,7 @@ export function bodega(ctx) {
   const inv = data.inventario.map((i) => ({ i, s: stockDe(data, st, i.sku) }));
   const accion = { Confirmado: 'Alistar', Alistando: 'Salió a ruta', 'En ruta': 'Entregado' };
   return `
-  ${cab('Bodega', `Próxima salida: ${proximaRuta().texto}.`)}
+  ${cab('Bodega', `Próxima salida: ${proximaRuta().texto}`)}
   <section class="pila">${pedidos.length ? pedidos.map((q) => `
     <div class="carta fila entre"><div><b>${q.cantidad} × ${esc(prod(ctx, q.sku).producto)}</b><br><span class="peq tenue">${esc(nombreCliente(ctx, q))} · ${esc(q.pedido.promesa)}</span></div>
     <div class="fila">${etiqueta(q.pedido.estado, 'info')}<button class="btn pri" data-act="avanzar" data-id="${q.id}">${accion[q.pedido.estado]}</button></div></div>`).join('') : '<p class="carta tenue">No hay pedidos activos.</p>'}</section>
