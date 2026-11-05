@@ -1,9 +1,9 @@
 // Arranque, rutas, persistencia en el navegador y acciones de la interfaz.
-import * as C from './core.js?v=4';
-import { abrirDialogo, activarTooltips, aviso, cerrarDialogo, esc } from './ui.js?v=4';
-import { CARRO } from './iconos.js?v=4';
-import { formularioSolicitud, nombreCarro, pedido, refrescarResultados, tienda } from './tienda.js?v=4';
-import { asesor, bodega, coordinacion, gerencia, marketing } from './equipo.js?v=4';
+import * as C from './core.js?v=5';
+import { abrirDialogo, activarTooltips, aviso, cerrarDialogo, esc } from './ui.js?v=5';
+import { CARRO } from './iconos.js?v=5';
+import { formularioSolicitud, nombreCarro, pedido, refrescarResultados, tienda } from './tienda.js?v=5';
+import { asesor, bodega, coordinacion, gerencia, marketing } from './equipo.js?v=5';
 
 const CLAVE = 'carsystem-hub-demo-v1';
 const CLAVE_CARRO = 'carsystem-mi-carro';

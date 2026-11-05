@@ -2,8 +2,8 @@
 import {
   MOTIVOS_PERDIDA, SLA_LIMITE_MIN, cop, copM, dec, dur, indicadoresPiloto, mensajeCotizacion, minutosHastaPrecio,
   nivelSLA, pct, promesaEntrega, proximaRuta, sinSeguimiento, stockDe, sugerir,
-} from './core.js?v=4';
-import { barras, barras2, cab, esc, etiqueta, kpi, tabla, tacometro } from './ui.js?v=4';
+} from './core.js?v=5';
+import { barras, barras2, cab, esc, etiqueta, kpi, tabla, tacometro } from './ui.js?v=5';
 
 export const hace = (iso) => dur((Date.now() - new Date(iso)) / 60000);
 const EMPLEADOS = { E02: 'Patricia', E03: 'Andrés', E04: 'Valentina', E05: 'Jhon Fredy', E06: 'Óscar' };

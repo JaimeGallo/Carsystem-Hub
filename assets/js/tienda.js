@@ -1,7 +1,7 @@
 // Tienda del cliente: el vehículo primero, y la pieza, el precio y la entrega a la vista.
-import { ESTADOS_PEDIDO, VEHICULOS, buscarPorVehiculo, cop, norm, promesaEntrega, sugerir, stockDe } from './core.js?v=4';
-import { CHECK, ETIQUETA, ICONOS, OJO, PERSONA, RELOJ, disco } from './iconos.js?v=4';
-import { cab, esc } from './ui.js?v=4';
+import { ESTADOS_PEDIDO, VEHICULOS, buscarPorVehiculo, cop, norm, promesaEntrega, sugerir, stockDe } from './core.js?v=5';
+import { CHECK, ETIQUETA, ICONOS, OJO, PERSONA, RELOJ, disco } from './iconos.js?v=5';
+import { cab, esc } from './ui.js?v=5';
 
 const ANIOS = Array.from({ length: 2023 - 2008 + 1 }, (_, i) => 2023 - i);
 export const nombreCarro = (v) => (v?.marca && v?.modelo ? [v.marca, v.modelo, v.anio].filter(Boolean).join(' ') : '');
