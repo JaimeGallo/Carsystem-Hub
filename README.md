@@ -18,7 +18,7 @@ Plataforma de repuestos del reto interdisciplinar **Carsystem Repuestos S.A.S.**
 | Marketing | `#/equipo/marketing` | Campañas y enlaces con origen |
 | Gerencia | `#/equipo/gerencia` | Línea base, metas y actividad reciente |
 
-La propuesta para el comité (diagnóstico, plan e impacto) está en la presentación de PowerPoint, fuera de este sitio.
+La propuesta para el comité está en el póster interactivo, en https://jaimegallo.github.io/Carsystem-Hub/poster/. El archivo `poster/index.html` se genera con `docs/generar_presentacion_interactiva.js`, fuera de este repositorio.
 
 ## Qué es real y qué es simulado
 
