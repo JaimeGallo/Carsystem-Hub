@@ -3,32 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Carsystem Hub</title>
-  <meta name="description" content="Prototipo integrado para Carsystem Repuestos: búsqueda, cotización, compra y decisión en un solo recorrido. Caso educativo Estud-IA.">
-  <meta name="theme-color" content="#0f2744">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f2744'/%3E%3Cpath d='M21 11a7 7 0 1 0 0 10' fill='none' stroke='%2334d3c5' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <title>Carsystem</title>
+  <meta name="description" content="Encuentra el repuesto correcto para tu carro, con precio y entrega a la vista. Prototipo del caso educativo Estud-IA.">
+  <meta name="theme-color" content="#0a0e13">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230a0e13'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23c8f31d' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='2.6' fill='%23c8f31d'/%3E%3C/svg%3E">
   <script>
     // Google Sites inserta este sitio como iframe: conserva el tablero que ya estaba enlazado allí.
     if (window.top !== window.self) location.replace('dashboard.html');
   </script>
-  <link rel="stylesheet" href="assets/hub.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/hub.css?v=3">
 </head>
 <body>
   <a class="salto" href="#contenido">Saltar al contenido</a>
-  <div class="marco">
-    <aside class="lateral" aria-label="Navegación principal">
-      <a class="marca" href="#/"><span class="marca-c" aria-hidden="true">C</span><span>Carsystem <b>Hub</b></span></a>
-      <nav id="nav"></nav>
-      <div class="lateral-pie">
-        <button class="btn-link" data-act="reiniciar">Reiniciar demo</button>
-        <p>Prototipo con datos simulados. Caso educativo Estud-IA: la empresa y las personas son ficticias.</p>
-      </div>
-    </aside>
-    <main id="contenido" tabindex="-1"><p class="cargando">Cargando…</p></main>
-  </div>
+  <header id="barra"></header>
+  <main id="contenido" tabindex="-1"><p class="cargando">Cargando…</p></main>
+  <footer id="pie"></footer>
   <dialog id="dlg" aria-labelledby="dlg-titulo"></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
   <div id="tip" role="tooltip" hidden></div>
-  <script type="module" src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/main.js?v=3"></script>
 </body>
 </html>

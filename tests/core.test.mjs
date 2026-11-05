@@ -109,3 +109,8 @@ test('el mensaje no duplica ni recorta el punto final', () => {
   assert.ok(c.mensajeCotizacion(p, q, { ok: true, texto: 'hoy, ruta de las 10:00 a. m.' }).includes('10:00 a. m.\n'));
   assert.ok(c.mensajeCotizacion(p, q, { ok: false, texto: 'por encargo, 7 días según proveedor' }).includes('según proveedor.\n'));
 });
+
+test('un síntoma encuentra las piezas compatibles con el carro', () => {
+  const skus = c.sugerir(data, 'mi carro se recalienta').candidatos.map((x) => x.sku);
+  assert.ok(skus.includes('RE-501') && skus.includes('RE-502'));
+});

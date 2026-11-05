@@ -75,7 +75,7 @@ const SINONIMOS = [
   [/bateria|no prende|no arranca|amperio|\d+ ?ah\b/, ['EL-401']],
   [/alternador|luz de la bateria/, ['EL-402']],
   [/radiador|recalienta/, ['RE-501']],
-  [/termostato|k4m/, ['RE-502']],
+  [/termostato|k4m|recalienta/, ['RE-502']],
 ];
 
 export function extraerVehiculo(texto) {
@@ -178,13 +178,13 @@ export function mensajeCotizacion(p, q, promesa) {
   const unit = Math.round(p.precio_cop * (1 - dcto / 100));
   const estado = promesa.ok ? 'Disponible, verificado en bodega' : 'Sin existencia inmediata';
   return [
-    `Hola${q.contacto ? ' ' + q.contacto.split(' ')[0] : ''}, le confirmamos la cotización ${q.id}:`,
+    `Hola${q.contacto ? ' ' + q.contacto.split(' ')[0] : ''}, te confirmo la cotización ${q.id}:`,
     `${q.cantidad} × ${p.producto} ${p.marca} (${p.sku})`,
     `Valor unitario: ${cop(unit)}${dcto ? ` (incluye ${dcto} % autorizado)` : ''}`,
     `Total: ${cop(unit * q.cantidad)}, IVA incluido`,
     `${estado}. Entrega: ${promesa.texto.replace(/\.$/, '')}.`,
     `Garantía: ${p.garantia_meses} meses.`,
-    'Si desea confirmar, responda SÍ a este mensaje.',
+    'Si quieres confirmar, responde SÍ.',
   ].join('\n');
 }
 
