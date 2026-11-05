@@ -1,0 +1,603 @@
+{
+ "fuente": "Centro de Inteligencia de Carsystem (consultatumesa.netlify.app) · caso educativo con personas ficticias",
+ "conversaciones": [
+  {
+   "codigo": "AT-01",
+   "canal": "WhatsApp",
+   "titulo": "Pastillas para Mazda 3 2017",
+   "clienteId": "C002",
+   "contactoVisible": "Carlos · Mecánica Rápida Norte",
+   "asesorId": "E04",
+   "cotizacionId": "Q014",
+   "fecha": "2026-08-19",
+   "fuente": "Exportación del chat del celular de mostrador",
+   "mensajes": [
+    {
+     "fecha": "2026-08-19",
+     "hora": "08:12",
+     "autor": "cliente",
+     "texto": "Buenos días. ¿Tienes pastillas delanteras para Mazda 3 modelo 2017? Necesito 3 juegos, las necesito hoy."
+    },
+    {
+     "fecha": "2026-08-19",
+     "hora": "08:36",
+     "autor": "asesor",
+     "texto": "Buenos días Carlos. Recibido, ya te confirmo."
+    },
+    {
+     "fecha": "2026-08-19",
+     "hora": "10:43",
+     "autor": "asesor",
+     "texto": "Estamos validando la referencia y disponibilidad."
+    },
+    {
+     "fecha": "2026-08-19",
+     "hora": "12:20",
+     "autor": "cliente",
+     "texto": "Gracias, ya las conseguí."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-02",
+   "canal": "Instagram",
+   "titulo": "Consulta sobre baterías desde un anuncio",
+   "contactoVisible": "Cuenta de Instagram sin identificar",
+   "asesorId": "E04",
+   "fecha": "2026-08-06",
+   "fuente": "Bandeja de mensajes directos de Instagram",
+   "mensajes": [
+    {
+     "fecha": "2026-08-06",
+     "hora": "21:14",
+     "autor": "cliente",
+     "texto": "Hola, vi la publicación de baterías. ¿Cómo sé cuál le sirve a mi carro? ¿Dónde puedo revisar precios?"
+    },
+    {
+     "fecha": "2026-08-07",
+     "hora": "09:40",
+     "autor": "asesor",
+     "texto": "Hola 👋 Escríbenos al WhatsApp con placa, marca y modelo y te asesoramos."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-03",
+   "canal": "Llamada",
+   "titulo": "Cotización anterior que no aparece",
+   "clienteId": "C003",
+   "contactoVisible": "Gloria Henao · AutoServicio Centro",
+   "asesorId": "E03",
+   "cotizacionId": "Q008",
+   "fecha": "2026-07-11",
+   "fuente": "Nota escrita por el asesor después de la llamada",
+   "mensajes": [
+    {
+     "fecha": "2026-07-11",
+     "hora": "10:05",
+     "autor": "cliente",
+     "texto": "«La semana pasada me cotizaron un filtro. Hoy me dicen otro precio y que no aparece la cotización anterior»."
+    },
+    {
+     "fecha": "2026-07-11",
+     "hora": "10:12",
+     "autor": "nota",
+     "texto": "Nota del asesor: la cliente dice que el 4 de julio le cotizaron por WhatsApp 4 filtros de combustible a $62.000. En el celular de mostrador no encuentro el chat. Precio actual de lista: $67.000. Le digo que confirmo y le devuelvo la llamada."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-04",
+   "canal": "WhatsApp",
+   "titulo": "Amortiguadores para Sandero 2016",
+   "clienteId": "C006",
+   "contactoVisible": "Laura Gómez",
+   "asesorId": "E04",
+   "cotizacionId": "Q015",
+   "fecha": "2026-09-05",
+   "fuente": "Exportación del chat del celular de mostrador",
+   "mensajes": [
+    {
+     "fecha": "2026-09-05",
+     "hora": "09:05",
+     "autor": "cliente",
+     "texto": "Hola, vi su publicación en Instagram. Necesito los dos amortiguadores delanteros para un Renault Sandero 2016. ¿Cuánto valen?"
+    },
+    {
+     "fecha": "2026-09-05",
+     "hora": "10:17",
+     "autor": "asesor",
+     "texto": "Hola Laura, con gusto te ayudamos. ¿Me regalas la placa del vehículo para confirmar la referencia?"
+    },
+    {
+     "fecha": "2026-09-05",
+     "hora": "10:21",
+     "autor": "cliente",
+     "texto": "Es un Sandero 1.6 de 2016, placa terminada en 427."
+    },
+    {
+     "fecha": "2026-09-05",
+     "hora": "10:22",
+     "autor": "asesor",
+     "texto": "Listo, ya reviso con bodega y te confirmo."
+    },
+    {
+     "fecha": "2026-09-05",
+     "hora": "12:48",
+     "autor": "cliente",
+     "texto": "¿Pudieron revisar? Los necesito para el lunes."
+    },
+    {
+     "fecha": "2026-09-07",
+     "hora": "11:40",
+     "autor": "asesor",
+     "texto": "Buenos días Laura, qué pena la demora. Los dos amortiguadores quedan en $572.000. ¿Te los enviamos?"
+    },
+    {
+     "fecha": "2026-09-07",
+     "hora": "11:52",
+     "autor": "cliente",
+     "texto": "Gracias, pero ya los compré el sábado en otro almacén."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-05",
+   "canal": "WhatsApp",
+   "titulo": "Baterías para Chevrolet Sail",
+   "clienteId": "C011",
+   "contactoVisible": "Edwin · Taller 24 Horas",
+   "asesorId": "E05",
+   "cotizacionId": "Q092",
+   "fecha": "2026-08-08",
+   "fuente": "Captura enviada por el asesor desde su celular personal",
+   "mensajes": [
+    {
+     "fecha": "2026-08-08",
+     "hora": "06:50",
+     "autor": "cliente",
+     "texto": "Buenas. Necesito 2 baterías de 60 amperios para un Chevrolet Sail, es para hoy."
+    },
+    {
+     "fecha": "2026-08-08",
+     "hora": "13:20",
+     "autor": "asesor",
+     "texto": "Buenas tardes Edwin, qué pena, apenas veo el mensaje. La de 60Ah que tenemos viene con el borne invertido para el Sail, no te serviría."
+    },
+    {
+     "fecha": "2026-08-08",
+     "hora": "13:24",
+     "autor": "cliente",
+     "texto": "¿Y cuándo les llega?"
+    },
+    {
+     "fecha": "2026-08-08",
+     "hora": "13:31",
+     "autor": "asesor",
+     "texto": "Le pregunto al proveedor y te aviso. Normalmente son unos 10 días."
+    },
+    {
+     "fecha": "2026-08-08",
+     "hora": "13:32",
+     "autor": "cliente",
+     "texto": "Ok, quedo atento."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-06",
+   "canal": "WhatsApp",
+   "titulo": "Disco de freno para un Logan 2015",
+   "clienteId": "C009",
+   "contactoVisible": "Julián Álvarez",
+   "asesorId": "E04",
+   "cotizacionId": "Q048",
+   "fecha": "2026-07-25",
+   "fuente": "Captura enviada por la asesora desde su celular personal",
+   "mensajes": [
+    {
+     "fecha": "2026-07-25",
+     "hora": "18:10",
+     "autor": "cliente",
+     "texto": "Buenas, ¿tienen disco de freno ventilado para un Logan 2015? Es para un cliente, lo necesito mañana temprano."
+    },
+    {
+     "fecha": "2026-07-26",
+     "hora": "08:10",
+     "autor": "asesor",
+     "texto": "Buenos días Julián, te escribo desde mi celular porque hoy no abrimos. Sí lo manejamos, el lunes te confirmo existencia."
+    },
+    {
+     "fecha": "2026-07-26",
+     "hora": "08:12",
+     "autor": "cliente",
+     "texto": "El lunes ya es tarde, gracias."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-07",
+   "canal": "WhatsApp",
+   "titulo": "Tres radiadores para Spark GT",
+   "clienteId": "C005",
+   "contactoVisible": "Mauricio · Diagnóstico Motor Plus",
+   "asesorId": "E05",
+   "cotizacionId": "Q090",
+   "fecha": "2026-09-09",
+   "fuente": "Captura enviada por el asesor desde su celular personal",
+   "mensajes": [
+    {
+     "fecha": "2026-09-09",
+     "hora": "16:45",
+     "autor": "cliente",
+     "texto": "Jhon Fredy, necesito precio de 3 radiadores para Spark GT mecánico."
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "12:45",
+     "autor": "asesor",
+     "texto": "Ingeniero, buenas. El radiador está en $475.000 cada uno. Hay existencia."
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "13:00",
+     "autor": "asesor",
+     "texto": "Por los 3 te puedo dejar un 2 % de descuento, ya lo autorizó Patricia."
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "13:20",
+     "autor": "cliente",
+     "texto": "En otro proveedor me los dejan a $430.000. Gracias, lo dejamos así."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-08",
+   "canal": "WhatsApp",
+   "titulo": "«Lo de siempre»: kits de distribución",
+   "clienteId": "C004",
+   "contactoVisible": "Fabio · Taller Ruta 65",
+   "asesorId": "E05",
+   "cotizacionId": "Q059",
+   "ventaId": "V029",
+   "pqrId": "PQR-06",
+   "fecha": "2026-09-10",
+   "fuente": "Captura enviada por el asesor desde su celular personal",
+   "mensajes": [
+    {
+     "fecha": "2026-09-10",
+     "hora": "07:40",
+     "autor": "cliente",
+     "texto": "Jhon, lo de siempre: 3 kits de distribución del Sail. ¿Me los mandas en la ruta de la mañana? Vi el mensaje del descuento."
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "08:52",
+     "autor": "asesor",
+     "texto": "Listo Fabio. 3 kits a $420.000 c/u, total $1.260.000. Salen en la ruta de las 10:00."
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "08:53",
+     "autor": "cliente",
+     "texto": "Dale, confirmado."
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "15:58",
+     "autor": "cliente",
+     "texto": "¿Y los kits? Tengo el carro desarmado desde las 11."
+    },
+    {
+     "fecha": "2026-09-10",
+     "hora": "16:12",
+     "autor": "cliente",
+     "texto": "Ya llegaron. Gracias."
+    }
+   ]
+  },
+  {
+   "codigo": "AT-09",
+   "canal": "WhatsApp",
+   "titulo": "Termostatos fuera del horario",
+   "clienteId": "C002",
+   "contactoVisible": "Carlos · Mecánica Rápida Norte",
+   "asesorId": "E04",
+   "cotizacionId": "Q086",
+   "pqrId": "PQR-09",
+   "fecha": "2026-09-19",
+   "fuente": "Exportación del chat del celular de mostrador",
+   "mensajes": [
+    {
+     "fecha": "2026-09-19",
+     "hora": "13:30",
+     "autor": "cliente",
+     "texto": "¿Tienen termostato para motor K4M? Necesito 3, es para hoy."
+    },
+    {
+     "fecha": "2026-09-20",
+     "hora": "09:30",
+     "autor": "asesor",
+     "texto": "Buenos días Carlos, ayer ya habíamos cerrado. Sí lo tenemos: $76.000 cada uno. ¿Te los separo?"
+    },
+    {
+     "fecha": "2026-09-20",
+     "hora": "09:41",
+     "autor": "cliente",
+     "texto": "Ya lo resolví con otro proveedor. Ayer nadie contestó."
+    }
+   ]
+  }
+ ],
+ "correos": [
+  {
+   "codigo": "EM-01",
+   "asunto": "Solicitud de cotización — radiadores Spark GT",
+   "clienteId": "C001",
+   "cotizacionId": "Q060",
+   "asesorId": "E05",
+   "fecha": "2026-07-24",
+   "mensajes": [
+    {
+     "de": "Compras · Taller La 80",
+     "para": "ventas@carsystem",
+     "fecha": "2026-07-24",
+     "hora": "08:02",
+     "cuerpo": "Buenos días.\n\nAgradecemos cotizar 4 radiadores para Chevrolet Spark GT, transmisión mecánica. Necesitamos entrega el lunes.\n\nCordialmente,\nWilson Restrepo"
+    },
+    {
+     "de": "ventas@carsystem",
+     "para": "Compras · Taller La 80",
+     "fecha": "2026-07-24",
+     "hora": "17:02",
+     "cuerpo": "Buenas tardes Wilson.\n\nRadiador RE-501 (Termocar TC-R1102)\nCantidad: 4\nValor unitario: $475.000\nTotal: $1.900.000 IVA incluido\n\nQuedamos atentos.\nJhon Fredy Ospina"
+    },
+    {
+     "de": "Compras · Taller La 80",
+     "para": "ventas@carsystem",
+     "fecha": "2026-07-25",
+     "hora": "07:31",
+     "cuerpo": "Gracias Jhon Fredy. Conseguimos en $441.000 c/u con entrega hoy. Será en otra ocasión."
+    }
+   ]
+  },
+  {
+   "codigo": "EM-02",
+   "asunto": "Orden de compra OC-1187 — kits de distribución",
+   "clienteId": "C005",
+   "cotizacionId": "Q045",
+   "ventaId": "V020",
+   "asesorId": "E02",
+   "fecha": "2026-07-22",
+   "mensajes": [
+    {
+     "de": "Mauricio Vélez · Diagnóstico Motor Plus",
+     "para": "ventas@carsystem",
+     "fecha": "2026-07-22",
+     "hora": "09:20",
+     "cuerpo": "Patricia, buen día.\n\nAdjunto la OC-1187 por 2 kits de distribución para Chevrolet Sail 1.4. Por favor confirmar valor y entrega.\n\nMauricio"
+    },
+    {
+     "de": "ventas@carsystem",
+     "para": "Mauricio Vélez · Diagnóstico Motor Plus",
+     "fecha": "2026-07-22",
+     "hora": "11:50",
+     "cuerpo": "Ingeniero, buen día.\n\nConfirmamos 2 kits MO-202 (Motrix MX-KT1400) a $420.000 c/u, total $840.000. Salen en la ruta de las 3:00 p. m. con factura a 30 días.\n\nPatricia Londoño\nCoordinadora comercial"
+    },
+    {
+     "de": "Mauricio Vélez · Diagnóstico Motor Plus",
+     "para": "ventas@carsystem",
+     "fecha": "2026-07-22",
+     "hora": "12:30",
+     "cuerpo": "Confirmado. Gracias."
+    }
+   ]
+  },
+  {
+   "codigo": "EM-03",
+   "asunto": "Baterías para flota",
+   "clienteId": "C003",
+   "cotizacionId": "Q027",
+   "ventaId": "V011",
+   "asesorId": "E05",
+   "fecha": "2026-07-06",
+   "mensajes": [
+    {
+     "de": "Gloria Henao · AutoServicio Centro",
+     "para": "ventas@carsystem",
+     "fecha": "2026-07-06",
+     "hora": "07:48",
+     "cuerpo": "Buenos días.\n\nNecesitamos 4 baterías de 60Ah para vehículos de reparto que tenemos en mantenimiento. ¿Tienen disponibilidad para hoy?\n\nGloria Henao\nCompras"
+    },
+    {
+     "de": "ventas@carsystem",
+     "para": "Gloria Henao · AutoServicio Centro",
+     "fecha": "2026-07-06",
+     "hora": "09:00",
+     "cuerpo": "Buenos días Gloria.\n\nBatería EL-401 Voltara 60Ah: 4 unidades a $385.000, total $1.540.000. Por favor confirmar marca y modelo de los vehículos para verificar polaridad.\n\nJhon Fredy"
+    },
+    {
+     "de": "Gloria Henao · AutoServicio Centro",
+     "para": "ventas@carsystem",
+     "fecha": "2026-07-06",
+     "hora": "09:26",
+     "cuerpo": "Son Chevrolet N300. Aprobado, por favor enviar en la ruta de la mañana."
+    }
+   ]
+  }
+ ],
+ "equipo": [
+  {
+   "id": "E01",
+   "nombre": "Hernán Castaño",
+   "cargo": "Gerente general y fundador",
+   "testimonio": {
+    "codigo": "TES-01",
+    "contexto": "Entrevista con consultores · 20 oct 2026",
+    "texto": "Yo sé cuánto vendimos porque lo dice la contabilidad. Lo que no sé es cuánto dejamos de vender, ni por qué. Cada asesor tiene su versión y todas suenan razonables."
+   }
+  },
+  {
+   "id": "E02",
+   "nombre": "Patricia Londoño",
+   "cargo": "Coordinadora comercial",
+   "testimonio": {
+    "codigo": "TES-02",
+    "contexto": "Entrevista con consultores · 20 oct 2026",
+    "texto": "El viernes reviso la hoja y completo lo que falta. Cuando una cotización se perdió y nadie volvió a escribirle al cliente, pongo \"no registrado\" o \"sin seguimiento\", según lo que me cuenten. Los minutos de respuesta los anota cada asesor cuando contesta el primer mensaje."
+   }
+  },
+  {
+   "id": "E03",
+   "nombre": "Andrés Muñoz",
+   "cargo": "Asesor comercial · mostrador y teléfono",
+   "testimonio": {
+    "codigo": "TES-03",
+    "contexto": "Entrevista con consultores · 21 oct 2026",
+    "texto": "Si tengo al cliente al frente, lo atiendo a él. Mientras tanto el teléfono suena y el WhatsApp se llena. Cuando alguien llama del Google preguntando un precio se lo digo de una, pero eso casi nunca queda anotado."
+   }
+  },
+  {
+   "id": "E04",
+   "nombre": "Valentina Ríos",
+   "cargo": "Asesora comercial · WhatsApp y redes",
+   "testimonio": {
+    "codigo": "TES-04",
+    "contexto": "Entrevista con consultores · 21 oct 2026",
+    "texto": "Respondo rápido para que el cliente sepa que lo vimos, y eso es lo que anoto como tiempo de respuesta. El precio depende de que bodega me confirme que la pieza está. Los domingos a veces contesto desde mi celular porque si no, el lunes ya es tarde."
+   }
+  },
+  {
+   "id": "E05",
+   "nombre": "Jhon Fredy Ospina",
+   "cargo": "Asesor comercial · talleres",
+   "testimonio": {
+    "codigo": "TES-05",
+    "contexto": "Entrevista con consultores · 22 oct 2026",
+    "texto": "Los talleres me escriben a mi número; me conocen hace años. Tengo mi propia lista de precios con los descuentos de cada uno. Si yo no estoy, a veces nadie sabe qué se le prometió a quién."
+   }
+  },
+  {
+   "id": "E06",
+   "nombre": "Óscar Betancur",
+   "cargo": "Jefe de bodega e inventario",
+   "testimonio": {
+    "codigo": "TES-06",
+    "contexto": "Entrevista con consultores · 22 oct 2026",
+    "texto": "Las salidas de mostrador las anoto en el cuaderno y las paso a la hoja al final del día, si alcanzo. Las devoluciones y los cambios por garantía a veces no se pasan. El 30 de septiembre hicimos conteo y no cuadró en casi ninguna referencia."
+   }
+  },
+  {
+   "id": "E07",
+   "nombre": "Kevin Arango",
+   "cargo": "Auxiliar de bodega y mensajero",
+   "testimonio": {
+    "codigo": "TES-07",
+    "contexto": "Entrevista con consultores · 23 oct 2026",
+    "texto": "Si el pedido se confirma después de las diez, sale en la ruta de la tarde, aunque al cliente le hayan dicho otra cosa. Yo me entero de la dirección cuando me pasan la factura impresa."
+   }
+  },
+  {
+   "id": "E08",
+   "nombre": "Diana Cardona",
+   "cargo": "Auxiliar administrativa y contable",
+   "testimonio": {
+    "codigo": "TES-08",
+    "contexto": "Entrevista con consultores · 23 oct 2026",
+    "texto": "Facturo en el software contable y después alguien pasa la venta a la hoja. Son dos registros de lo mismo. La copia al disco externo la hago cuando me acuerdo; la última fue en agosto, después del problema con la hoja de inventario."
+   }
+  },
+  {
+   "id": "E09",
+   "nombre": "Sara Mejía",
+   "cargo": "Gestora de redes sociales (externa, 12 h/semana)",
+   "testimonio": {
+    "codigo": "TES-09",
+    "contexto": "Entrevista con consultores · 24 oct 2026",
+    "texto": "Publico tres veces por semana. Los mensajes que llegan por Instagram se los paso a Valentina con un pantallazo o les digo que escriban al WhatsApp. Me piden resultados, pero yo no sé cuáles de esos mensajes terminan en una venta."
+   }
+  }
+ ],
+ "resenas": [
+  {
+   "codigo": "RES-01",
+   "estrellas": 5,
+   "autor": "Usuario de Google",
+   "fecha": "2026-09-12",
+   "texto": "Muy buena asesoría en el mostrador, saben mucho de carros y no le venden a uno lo que no necesita."
+  },
+  {
+   "codigo": "RES-02",
+   "estrellas": 2,
+   "autor": "Usuario de Google",
+   "fecha": "2026-09-07",
+   "texto": "Escribí por WhatsApp un sábado al mediodía y me respondieron el lunes. Ya había comprado en otra parte."
+  },
+  {
+   "codigo": "RES-03",
+   "estrellas": 4,
+   "autor": "Usuario de Google",
+   "fecha": "2026-08-21",
+   "texto": "Buenos precios para talleres y el mensajero es cumplido. A veces toca llamar dos veces para confirmar si hay."
+  },
+  {
+   "codigo": "RES-04",
+   "estrellas": 1,
+   "autor": "Usuario de Google",
+   "fecha": "2026-08-09",
+   "texto": "Por Instagram no responden el precio, solo dicen que escriba al WhatsApp con la placa."
+  },
+  {
+   "codigo": "RES-05",
+   "estrellas": 5,
+   "autor": "Usuario de Google",
+   "fecha": "2026-07-30",
+   "texto": "Me ayudaron a encontrar el filtro correcto para mi Logan. Atención muy amable."
+  },
+  {
+   "codigo": "RES-06",
+   "estrellas": 3,
+   "autor": "Usuario de Google",
+   "fecha": "2026-07-16",
+   "texto": "Tienen buen surtido pero en la página de Google no hay catálogo ni precios. Toca llamar para todo."
+  }
+ ],
+ "incidentes": [
+  {
+   "codigo": "INC-01",
+   "fecha": "2026-07-18",
+   "titulo": "Corte de internet de 5 horas",
+   "impacto": "Sin WhatsApp Web ni hojas en la nube. Las cotizaciones se hicieron por teléfono y se anotaron en papel; parte no se pasó a la hoja.",
+   "duracion": "5 h"
+  },
+  {
+   "codigo": "INC-02",
+   "fecha": "2026-08-14",
+   "titulo": "Sobrescritura en la hoja de inventario",
+   "impacto": "Dos personas editaron la misma zona a la vez. Se perdieron cambios de varias filas; se restauró una versión anterior y se rehicieron entradas.",
+   "duracion": "1 día"
+  },
+  {
+   "codigo": "INC-03",
+   "fecha": "2026-08-29",
+   "titulo": "Falla del celular de mostrador",
+   "impacto": "El equipo no encendió durante dos días. Los mensajes de esos días se atendieron desde celulares personales.",
+   "duracion": "2 días"
+  },
+  {
+   "codigo": "INC-04",
+   "fecha": "2026-09-11",
+   "titulo": "Correo sospechoso de “proveedor”",
+   "impacto": "Un correo pidió cambiar la cuenta bancaria de pago de un proveedor. Diana lo verificó por teléfono y no se pagó.",
+   "duracion": "—"
+  },
+  {
+   "codigo": "INC-05",
+   "fecha": "2026-09-20",
+   "titulo": "PC de bodega fuera de servicio",
+   "impacto": "Actualización fallida. La hoja de inventario no se actualizó desde bodega durante tres días.",
+   "duracion": "3 días"
+  }
+ ]
+}

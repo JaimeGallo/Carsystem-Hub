@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Carsystem Hub · Dashboard Admin</title>
+  <meta name="description" content="Dashboard administrativo de métricas Carsystem Repuestos — expediente Q3 2026" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --navy: #0f2744;
+      --navy-2: #16365c;
+      --teal: #0e847e;
+      --teal-2: #17a29b;
+      --teal-soft: #e8f7f6;
+      --amber: #c2410c;
+      --slate: #334155;
+      --muted: #64748b;
+      --line: #dbe3ee;
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --danger: #b91c1c;
+      --ok: #047857;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--slate);
+      line-height: 1.45;
+    }
+    .top {
+      background: linear-gradient(120deg, var(--navy), var(--navy-2) 55%, #0b6863);
+      color: #fff;
+      padding: 1.1rem 1.25rem 1rem;
+    }
+    .top-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .75rem 1.25rem;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    .brand { display: flex; flex-direction: column; gap: .2rem; }
+    .brand strong { font-size: 1.35rem; letter-spacing: .01em; }
+    .brand span { opacity: .85; font-size: .92rem; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      background: rgba(255,255,255,.12);
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 999px;
+      padding: .35rem .75rem;
+      font-size: .82rem;
+    }
+    .dot { width: .55rem; height: .55rem; border-radius: 50%; background: #34d399; }
+    main { max-width: 1180px; margin: 0 auto; padding: 1.1rem 1rem 2.5rem; }
+    .tabs {
+      display: flex; flex-wrap: wrap; gap: .5rem; margin: .2rem 0 1rem;
+    }
+    .tab {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--slate);
+      border-radius: 999px;
+      padding: .45rem .9rem;
+      font-size: .9rem;
+      cursor: pointer;
+    }
+    .tab.active {
+      background: var(--teal);
+      border-color: var(--teal);
+      color: #fff;
+      font-weight: 600;
+    }
+    .panel { display: none; }
+    .panel.active { display: block; }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: .75rem;
+      margin-bottom: 1rem;
+    }
+    @media (max-width: 900px) {
+      .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 520px) {
+      .kpis { grid-template-columns: 1fr; }
+    }
+    .kpi {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: .9rem 1rem;
+      min-height: 92px;
+    }
+    .kpi .label { color: var(--muted); font-size: .82rem; }
+    .kpi .value { font-size: 1.55rem; font-weight: 700; color: var(--navy); margin-top: .15rem; }
+    .kpi .hint { color: var(--muted); font-size: .78rem; margin-top: .2rem; }
+    .kpi.warn .value { color: var(--amber); }
+    .kpi.danger .value { color: var(--danger); }
+    .kpi.ok .value { color: var(--ok); }
+    .grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: .9rem;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 1rem;
+    }
+    .card h2 {
+      margin: 0 0 .75rem;
+      font-size: 1rem;
+      color: var(--navy);
+    }
+    .card h3 {
+      margin: 0 0 .5rem;
+      font-size: .95rem;
+      color: var(--navy);
+    }
+    .note {
+      background: var(--teal-soft);
+      border: 1px solid #c9ecea;
+      border-radius: 12px;
+      padding: .85rem 1rem;
+      color: #0b6863;
+      font-size: .9rem;
+      margin-bottom: 1rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .86rem;
+    }
+    th, td {
+      text-align: left;
+      padding: .55rem .45rem;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; font-size: .78rem; text-transform: uppercase; letter-spacing: .03em; }
+    .neg { color: var(--danger); font-weight: 600; }
+    .pos { color: var(--ok); font-weight: 600; }
+    .chart-wrap { position: relative; height: 260px; }
+    footer {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 1rem 2rem;
+      color: var(--muted);
+      font-size: .8rem;
+    }
+    .money::before { content: "$"; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand">
+        <strong>Carsystem Hub · Dashboard Admin</strong>
+        <span id="periodo">Cargando métricas…</span>
+      </div>
+      <div class="badge"><span class="dot"></span> Vista gerencia / comercial</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="note" id="fuente"></div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="resumen">Resumen</button>
+      <button class="tab" data-tab="comercial">Comercial</button>
+      <button class="tab" data-tab="canales">Canales & origen</button>
+      <button class="tab" data-tab="inventario">Inventario</button>
+      <button class="tab" data-tab="marketing">Marketing</button>
+      <button class="tab" data-tab="metas">Metas orientadoras</button>
+    </div>
+
+    <section class="panel active" id="resumen">
+      <div class="kpis" id="kpi-resumen"></div>
+      <div class="grid">
+        <div class="card">
+          <h2>Cotizaciones por mes</h2>
+          <div class="chart-wrap"><canvas id="chartMes"></canvas></div>
+        </div>
+        <div class="card">
+          <h2>Motivos de pérdida</h2>
+          <div class="chart-wrap"><canvas id="chartMotivos"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="comercial">
+      <div class="kpis" id="kpi-comercial"></div>
+      <div class="grid">
+        <div class="card">
+          <h2>Cotizaciones por canal</h2>
+          <div class="chart-wrap"><canvas id="chartCanal"></canvas></div>
+        </div>
+        <div class="card">
+          <h2>PQR del periodo</h2>
+          <div class="chart-wrap"><canvas id="chartPqr"></canvas></div>
+          <div id="pqrDetalle" style="margin-top:.75rem"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="canales">
+      <div class="grid">
+        <div class="card">
+          <h2>Interacciones por canal</h2>
+          <div class="chart-wrap"><canvas id="chartInter"></canvas></div>
+        </div>
+        <div class="card">
+          <h2>Origen del contacto (top)</h2>
+          <div class="chart-wrap"><canvas id="chartOrigen"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="inventario">
+      <div class="kpis" id="kpi-inv"></div>
+      <div class="card">
+        <h2>Hoja vs. conteo físico</h2>
+        <div style="overflow:auto">
+          <table>
+            <thead>
+              <tr>
+                <th>SKU</th>
+                <th>Producto</th>
+                <th>Registrado</th>
+                <th>Físico</th>
+                <th>Diferencia</th>
+                <th>Mínimo</th>
+                <th>Vendidas</th>
+              </tr>
+            </thead>
+            <tbody id="invBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="marketing">
+      <div class="card">
+        <h2>Campañas y atribución</h2>
+        <div style="overflow:auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Campaña</th>
+                <th>Canal</th>
+                <th>Inversión</th>
+                <th>Alcance</th>
+                <th>Clics</th>
+                <th>Contactos</th>
+                <th>Cotiz.</th>
+                <th>Ventas</th>
+                <th>Valor ventas</th>
+              </tr>
+            </thead>
+            <tbody id="campBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="metas">
+      <div class="card">
+        <h2>Metas orientadoras (sin plazo fijo)</h2>
+        <table>
+          <thead>
+            <tr><th>KPI</th><th>Baseline expediente</th><th>Meta orientadora</th></tr>
+          </thead>
+          <tbody id="metasBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script>
+    const money = (n) => new Intl.NumberFormat('es-CO').format(n);
+    const charts = {};
+
+    function setTabs() {
+      document.querySelectorAll('.tab').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.tab').forEach((b) => b.classList.remove('active'));
+          document.querySelectorAll('.panel').forEach((p) => p.classList.remove('active'));
+          btn.classList.add('active');
+          document.getElementById(btn.dataset.tab).classList.add('active');
+        });
+      });
+    }
+
+    function kpiCard(label, value, hint = '', cls = '') {
+      return `<div class="kpi ${cls}"><div class="label">${label}</div><div class="value">${value}</div>${hint ? `<div class="hint">${hint}</div>` : ''}</div>`;
+    }
+
+    function barChart(id, labels, data, label, color = '#0e847e') {
+      const ctx = document.getElementById(id);
+      if (charts[id]) charts[id].destroy();
+      charts[id] = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{ label, data, backgroundColor: color, borderRadius: 6, maxBarThickness: 42 }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { beginAtZero: true, ticks: { precision: 0 } }
+          }
+        }
+      });
+    }
+
+    function doughnut(id, labels, data, colors) {
+      const ctx = document.getElementById(id);
+      if (charts[id]) charts[id].destroy();
+      charts[id] = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels,
+          datasets: [{ data, backgroundColor: colors, borderWidth: 0 }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'bottom' } }
+        }
+      });
+    }
+
+    async function boot() {
+      setTabs();
+      const res = await fetch('data/metrics.json');
+      const m = await res.json();
+      const k = m.kpis;
+
+      document.getElementById('periodo').textContent = `${m.meta.empresa} · ${m.meta.periodo}`;
+      document.getElementById('fuente').textContent = `${m.meta.fuente}. ${m.meta.nota}`;
+      document.getElementById('footer').textContent = `Carsystem Hub · Estud-IA Bootcamps · Fuente: ${m.meta.fuente}`;
+
+      document.getElementById('kpi-resumen').innerHTML = [
+        kpiCard('Cotizaciones', k.cotizaciones, `${k.ganadas} ganadas / ${k.perdidas} perdidas`),
+        kpiCard('Tasa de cierre', `${k.tasa_cierre_pct}%`, 'Meta orientadora ≥ 55%', k.tasa_cierre_pct < 55 ? 'warn' : 'ok'),
+        kpiCard('Ventas COP', money(k.valor_ventas_cop), `Ticket prom. $${money(k.ticket_promedio_cop)}`),
+        kpiCard('Mediana 1.ª respuesta', `${k.mediana_horas_respuesta} h`, `Promedio ${k.promedio_horas_respuesta} h`, k.mediana_horas_respuesta > 1 ? 'warn' : 'ok'),
+      ].join('');
+
+      document.getElementById('kpi-comercial').innerHTML = [
+        kpiCard('Clientes en muestra', k.clientes, `${k.talleres} talleres · ${k.particulares} particulares`),
+        kpiCard('Ventas registradas', k.ventas, 'Desde cotizaciones ganadas'),
+        kpiCard('Interacciones', k.interacciones, 'Todos los canales'),
+        kpiCard('PQR', k.pqr, Object.entries(m.pqr_por_estado).map(([a,b]) => `${a}: ${b}`).join(' · ')),
+      ].join('');
+
+      document.getElementById('kpi-inv').innerHTML = [
+        kpiCard('SKUs en catálogo', k.skus),
+        kpiCard('Descuadres inventario', k.inventario_descuadres, 'Hoja ≠ físico', 'danger'),
+        kpiCard('SKUs bajo mínimo', k.skus_bajo_minimo, 'Según stock físico', k.skus_bajo_minimo ? 'warn' : 'ok'),
+        kpiCard('Campañas activas', k.campanas, `${k.publicaciones} publicaciones`),
+      ].join('');
+
+      const months = Object.keys(m.cotizaciones_por_mes);
+      barChart(
+        'chartMes',
+        months,
+        months.map((mo) => m.cotizaciones_por_mes[mo].total),
+        'Cotizaciones',
+        '#16365c'
+      );
+
+      const motivos = Object.entries(m.motivos_perdida);
+      barChart('chartMotivos', motivos.map((x) => x[0]), motivos.map((x) => x[1]), 'Casos', '#c2410c');
+
+      const canales = Object.entries(m.cotizaciones_por_canal);
+      doughnut('chartCanal', canales.map((x) => x[0]), canales.map((x) => x[1]), ['#0e847e','#16365c','#17a29b','#64748b','#94a3b8','#cbd5e1']);
+
+      const pqr = Object.entries(m.pqr_por_tipo);
+      doughnut('chartPqr', pqr.map((x) => x[0]), pqr.map((x) => x[1]), ['#0e847e','#c2410c','#16365c','#64748b']);
+      document.getElementById('pqrDetalle').innerHTML = `<p style="color:#64748b;font-size:.86rem;margin:0">Estados: ${Object.entries(m.pqr_por_estado).map(([a,b]) => `<strong>${a}</strong> ${b}`).join(' · ')}</p>`;
+
+      const inter = Object.entries(m.interacciones_por_canal);
+      barChart('chartInter', inter.map((x) => x[0]), inter.map((x) => x[1]), 'Interacciones', '#0e847e');
+
+      const origen = Object.entries(m.origen_contacto).slice(0, 8);
+      barChart('chartOrigen', origen.map((x) => x[0]), origen.map((x) => x[1]), 'Contactos', '#16365c');
+
+      document.getElementById('invBody').innerHTML = m.inventario.map((r) => `
+        <tr>
+          <td>${r.sku}</td>
+          <td>${r.producto}</td>
+          <td>${r.stock_registrado}</td>
+          <td>${r.stock_fisico}</td>
+          <td class="${r.diferencia < 0 ? 'neg' : (r.diferencia > 0 ? 'pos' : '')}">${r.diferencia}</td>
+          <td>${r.stock_minimo}</td>
+          <td>${r.vendidas}</td>
+        </tr>
+      `).join('');
+
+      document.getElementById('campBody').innerHTML = m.campanas.map((r) => `
+        <tr>
+          <td>${r.nombre}</td>
+          <td>${r.canal}</td>
+          <td>$${money(r.inversion)}</td>
+          <td>${money(r.alcance)}</td>
+          <td>${money(r.clics)}</td>
+          <td>${r.contactos}</td>
+          <td>${r.cotizaciones}</td>
+          <td>${r.ventas}</td>
+          <td>$${money(r.valor_ventas)}</td>
+        </tr>
+      `).join('');
+
+      document.getElementById('metasBody').innerHTML = m.metas_orientadoras.map((r) => `
+        <tr><td>${r.kpi}</td><td>${r.baseline}</td><td>${r.meta}</td></tr>
+      `).join('');
+    }
+
+    boot().catch((err) => {
+      document.getElementById('fuente').textContent = 'No se pudo cargar data/metrics.json. Verifica que el archivo esté publicado en GitHub Pages.';
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
