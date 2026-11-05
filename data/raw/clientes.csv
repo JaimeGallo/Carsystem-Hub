@@ -1,0 +1,13 @@
+﻿cliente_id,nombre,segmento,canal_preferido,ciudad,zona,fecha_registro,contacto,telefono,vehiculo_o_especialidad,condicion_pago,autoriza_tratamiento_datos
+C001,Taller La 80,Taller,WhatsApp,Medellín,Belén,2014-03-10,Wilson Restrepo · propietario,+57 310 *** 4521,"Mecánica general · Mazda, Chevrolet, Renault",Crédito 30 días,Sí
+C002,Mecánica Rápida Norte,Taller,WhatsApp,Bello,Niquía,2017-06-02,Carlos Úsuga · jefe de taller,311-***-8890,Frenos y suspensión,Contado,No registrado
+C003,AutoServicio Centro,Taller,Teléfono,Medellín,La Candelaria,2011-09-15,Gloria Henao · compras,+57 604 *** 1187,Mantenimiento de flotas pequeñas,Crédito 30 días,Sí
+C004,Taller Ruta 65,Taller,WhatsApp,Itagüí,Santa María,2019-01-21,Fabio Ríos · propietario,+57 300 *** 7712,Mecánica general y sincronización,Crédito 15 días,Sí
+C005,Diagnóstico Motor Plus,Taller,Correo,Envigado,Zona Centro,2020-10-05,Mauricio Vélez · director técnico,+57 315 *** 0334,Diagnóstico electrónico y motor,Crédito 30 días,Sí
+C006,Laura Gómez,Particular,Instagram,Medellín,Laureles,2026-07-01,Laura Gómez,3** *** 2290,Renault Sandero 2016,Contado,No registrado
+C007,Daniel Torres,Particular,WhatsApp,Sabaneta,Aves María,2025-11-03,Daniel Torres,+57 301 *** 6658,Kia Picanto 2019,Contado,Sí
+C008,María Restrepo,Particular,Google,Envigado,El Portal,2026-07-04,María Restrepo,+57 318 *** 4410,Nissan March 2017,Contado,Sí
+C009,Julián Álvarez,Particular,Instagram,Medellín,Manrique,,Julián Álvarez,320 *** 9015,Renault Logan 2015,Contado,No registrado
+C010,Camila Pérez,Particular,Google,Itagüí,Ditaires,2026-07-14,Camila Pérez,+57 304 *** 3127,Mazda 2 2020,Contado,Sí
+C011,Taller 24 Horas,Taller,WhatsApp,Medellín,Guayabal,2016-04-11,Edwin Cano · administrador,+57 312 *** 5506,Servicio 24 horas · grúa y mecánica rápida,Contado,Sí
+C012,Santiago Ruiz,Particular,WhatsApp,,,2026-07-26,Santiago Ruiz,3001*****8,Toyota Hilux 2014,Contado,No registrado

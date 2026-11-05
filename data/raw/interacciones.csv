@@ -1,0 +1,205 @@
+﻿interaccion_id,fecha,hora_entrada,canal,cliente_id,origen_contacto,campana_id,asesor_id,motivo,cotizacion_id,sku_consultado,minutos_primera_respuesta,minutos_envio_precio,resultado
+I0001,2026-07-01,21:59,Correo,C006,Pauta Instagram,CMP-01,E05,Solicitud de cotización,Q030,FR-102,540,540,Cotización registrada
+I0002,2026-07-03,10:43,Instagram,,Pauta Instagram,CMP-01,E04,Consulta de disponibilidad,,FI-601,1100,,Derivada a WhatsApp
+I0003,2026-07-03,12:31,WhatsApp,C002,No registrado,,E05,Solicitud de cotización,Q073,FI-602,24,84,Cotización registrada
+I0004,2026-07-04,12:10,Mostrador,C011,Cliente recurrente,,E05,Solicitud de cotización,Q032,FR-102,390,390,Cotización registrada
+I0005,2026-07-04,12:41,WhatsApp,C003,Cliente recurrente,,E04,Solicitud de cotización,Q008,FI-602,1200,1200,Cotización registrada
+I0006,2026-07-04,21:59,WhatsApp,C008,Perfil de Google,CMP-04,E04,Solicitud de cotización,Q063,RE-501,540,,Cotización registrada
+I0007,2026-07-05,10:15,Instagram,C009,Publicación Instagram,CMP-05,E04,Solicitud de cotización,Q082,RE-501,150,150,Cotización registrada
+I0008,2026-07-05,15:06,WhatsApp,C001,Cliente recurrente,,E04,Consulta de disponibilidad,,RE-502,90,,Respondida sin cotización
+I0009,2026-07-06,07:48,Correo,C003,Cliente recurrente,,E05,Solicitud de cotización,Q027,EL-401,72,72,Cotización registrada
+I0010,2026-07-06,09:49,WhatsApp,C004,Cliente recurrente,,E04,Consulta de disponibilidad,,RE-502,15,15,Precio informado sin registro
+I0011,2026-07-07,10:44,Teléfono,C003,No registrado,,E05,Solicitud de cotización,Q039,RE-502,72,72,Cotización registrada
+I0012,2026-07-08,09:22,Teléfono,,Perfil de Google,CMP-04,E05,Consulta de compatibilidad,,SU-301,0,,Sin disponibilidad informada
+I0013,2026-07-08,09:54,Teléfono,C006,No registrado,,E05,Solicitud de cotización,Q083,FR-102,72,72,Cotización registrada
+I0014,2026-07-08,14:51,Mostrador,C011,Referido,,E03,Solicitud de cotización,Q025,FI-601,1200,2040,Cotización registrada
+I0015,2026-07-09,08:26,WhatsApp,C010,No registrado,,E04,Solicitud de cotización,Q011,MO-201,240,2160,Cotización registrada
+I0016,2026-07-10,12:51,WhatsApp,C004,No registrado,,E05,Solicitud de cotización,Q035,FR-102,1200,1260,Cotización registrada
+I0017,2026-07-11,08:31,WhatsApp,C011,No registrado,,E04,Solicitud de cotización,Q080,EL-401,72,212,Cotización registrada
+I0018,2026-07-11,09:45,WhatsApp,C003,Cliente recurrente,,E05,Consulta de disponibilidad,,EL-402,420,,Respondida sin cotización
+I0019,2026-07-11,10:05,Teléfono,C003,Cliente recurrente,,E03,Consulta de cotización previa,Q008,FI-602,0,0,Respondida sin cotización
+I0020,2026-07-11,10:39,WhatsApp,C011,Cliente recurrente,,E03,Estado del pedido,Q080,EL-401,130,,Informado
+I0021,2026-07-11,12:56,Teléfono,C005,Cliente recurrente,,E03,Solicitud de cotización,Q093,RE-502,1200,1200,Cotización registrada
+I0022,2026-07-11,16:02,Instagram,,Pauta Instagram,CMP-01,E04,Consulta de compatibilidad,,SU-301,2160,,Derivada a WhatsApp
+I0023,2026-07-13,16:12,WhatsApp,C011,Cliente recurrente,,E03,Reclamo o garantía,Q080,EL-401,20,,Registrada como PQR-01
+I0024,2026-07-14,06:31,WhatsApp,C010,Perfil de Google,CMP-04,E04,Solicitud de cotización,Q038,SU-302,390,450,Cotización registrada
+I0025,2026-07-14,14:58,Instagram,,Pauta Instagram,CMP-01,E04,Consulta de disponibilidad,,FR-101,45,,Respondida sin cotización
+I0026,2026-07-15,09:22,Teléfono,,Perfil de Google,CMP-04,E05,Consulta de compatibilidad,,MO-201,0,,Sin disponibilidad informada
+I0027,2026-07-15,10:13,Teléfono,,Perfil de Google,CMP-04,E03,Consulta de disponibilidad,,FR-101,0,,Sin disponibilidad informada
+I0028,2026-07-15,10:28,Teléfono,C001,Cliente recurrente,,E05,Estado del pedido,Q026,FI-601,25,,Informado
+I0029,2026-07-15,14:31,Mostrador,C001,No registrado,,E03,Solicitud de cotización,Q026,FI-601,48,48,Cotización registrada
+I0030,2026-07-16,08:20,WhatsApp,C010,Perfil de Google,CMP-04,E04,Solicitud de cotización,Q003,SU-302,240,280,Cotización registrada
+I0031,2026-07-16,11:34,Instagram,,Pauta Instagram,CMP-01,E04,Consulta de precio,,SU-301,1440,,Respondida sin cotización
+I0032,2026-07-16,14:02,WhatsApp,C010,No registrado,,E05,Estado del pedido,Q003,SU-302,75,,Informado
+I0033,2026-07-17,08:51,Instagram,,Pauta Instagram,CMP-01,,Consulta de precio,,,,,Sin respuesta registrada
+I0034,2026-07-17,11:26,Instagram,,Pauta Instagram,CMP-01,E04,Consulta de disponibilidad,,FR-101,45,,Derivada a WhatsApp
+I0035,2026-07-17,22:54,Instagram,,Pauta Instagram,CMP-01,,Consulta de disponibilidad,,MO-201,,,Sin respuesta registrada
+I0036,2026-07-19,12:06,Mostrador,C001,No registrado,,E03,Solicitud de cotización,Q023,FI-601,390,390,Cotización registrada
+I0037,2026-07-20,13:09,Teléfono,,Perfil de Google,CMP-04,E03,Consulta de disponibilidad,,FR-101,0,,Sin disponibilidad informada
+I0038,2026-07-20,22:55,Instagram,C009,Pauta Instagram,CMP-01,E04,Solicitud de cotización,Q055,RE-501,540,540,Cotización registrada
+I0039,2026-07-20,23:23,WhatsApp,C001,Cliente recurrente,,E04,Solicitud de cotización,Q074,SU-302,540,580,Cotización registrada
+I0040,2026-07-21,11:24,Facebook,,Publicación Facebook,CMP-05,E04,Consulta de compatibilidad,,FI-601,560,,Derivada a WhatsApp
+I0041,2026-07-21,13:55,Teléfono,C009,Pauta Instagram,CMP-01,E03,Solicitud de cotización,Q002,FI-601,72,72,Cotización registrada
+I0042,2026-07-22,06:47,Teléfono,C005,Cliente recurrente,,E05,Consulta de disponibilidad,,RE-502,0,0,Precio informado sin registro
+I0043,2026-07-22,09:20,Correo,C005,Cliente recurrente,,E02,Solicitud de cotización,Q045,MO-202,150,150,Cotización registrada
+I0044,2026-07-23,18:19,Teléfono,C002,Cliente recurrente,,E05,Solicitud de cotización,Q054,EL-401,840,840,Cotización registrada
+I0045,2026-07-24,08:02,Correo,C001,Cliente recurrente,,E05,Solicitud de cotización,Q060,RE-501,540,540,Cotización registrada
+I0046,2026-07-24,08:55,Instagram,C001,No registrado,,E04,Solicitud de cotización,Q069,MO-201,240,280,Cotización registrada
+I0047,2026-07-24,09:42,Mostrador,C004,Cliente recurrente,,E05,Solicitud de cotización,Q078,SU-301,840,840,Cotización registrada
+I0048,2026-07-24,12:45,WhatsApp,C001,Cliente recurrente,,E03,Estado del pedido,Q069,MO-201,75,,Informado
+I0049,2026-07-25,18:10,WhatsApp,C009,No registrado,,E04,Solicitud de cotización,Q048,FR-102,840,,Cotización registrada
+I0050,2026-07-25,22:30,WhatsApp,C008,Perfil de Google,CMP-04,E04,Solicitud de cotización,Q065,SU-301,540,2160,Cotización registrada
+I0051,2026-07-26,08:50,Teléfono,C012,Referido,,E03,Solicitud de cotización,Q058,FI-601,240,240,Cotización registrada
+I0052,2026-07-26,16:11,Mostrador,C009,Publicación Instagram,CMP-05,E03,Solicitud de cotización,Q062,RE-502,240,240,Cotización registrada
+I0053,2026-07-27,09:35,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de compatibilidad,,FI-601,2880,,Derivada a WhatsApp
+I0054,2026-07-27,13:59,WhatsApp,C001,Cliente recurrente,,E05,Consulta de disponibilidad,,FI-602,50,,Sin disponibilidad informada
+I0055,2026-07-27,14:44,WhatsApp,C003,Cliente recurrente,,E05,Solicitud de cotización,Q057,MO-202,48,143,Cotización registrada
+I0056,2026-07-27,16:13,Mostrador,C009,Publicación Instagram,CMP-05,E05,Solicitud de cotización,Q042,FR-102,150,150,Cotización registrada
+I0057,2026-07-27,16:13,WhatsApp,C003,Cliente recurrente,,E05,Estado del pedido,Q057,MO-202,75,,Informado
+I0058,2026-07-28,09:15,Mostrador,C003,Cliente recurrente,,E03,Solicitud de cotización,Q056,FI-602,48,48,Cotización registrada
+I0059,2026-07-29,11:25,WhatsApp,C012,No registrado,,E04,Reclamo o garantía,Q058,FI-601,240,,Registrada como PQR-03
+I0060,2026-07-29,12:11,WhatsApp,C005,Contacto saliente,,E05,Seguimiento postventa,Q045,MO-202,,,Cliente satisfecho
+I0061,2026-07-29,19:13,Facebook,,Publicación Facebook,CMP-05,E04,Consulta de compatibilidad,,MO-201,720,,Respondida sin cotización
+I0062,2026-07-30,16:36,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de disponibilidad,,SU-301,120,,Derivada a WhatsApp
+I0063,2026-08-01,09:02,Mostrador,C007,No registrado,,E03,Solicitud de cotización,Q034,RE-501,150,150,Cotización registrada
+I0064,2026-08-01,12:53,WhatsApp,C009,Pauta Instagram,CMP-02,,Solicitud de cotización,Q053,FR-102,72,82,Cotización registrada
+I0065,2026-08-01,13:01,Teléfono,C005,Cliente recurrente,,E03,Solicitud de cotización,Q029,FI-601,1200,1200,Cotización registrada
+I0066,2026-08-02,12:51,WhatsApp,C009,Pauta Instagram,CMP-02,E04,Solicitud de cotización,Q016,SU-301,150,290,Cotización registrada
+I0067,2026-08-02,14:07,Mostrador,C011,Cliente recurrente,,E03,Solicitud de cotización,Q033,EL-401,24,24,Cotización registrada
+I0068,2026-08-02,16:44,WhatsApp,C005,Cliente recurrente,,E03,Estado del pedido,Q029,FI-601,25,,Informado
+I0069,2026-08-02,18:13,WhatsApp,C011,No registrado,,E04,Solicitud de cotización,Q091,EL-402,840,900,Cotización registrada
+I0070,2026-08-03,07:50,WhatsApp,C004,No registrado,,E05,Solicitud de cotización,Q001,SU-302,240,380,Cotización registrada
+I0071,2026-08-03,12:14,WhatsApp,C002,Cliente recurrente,,E04,Solicitud de cotización,Q020,MO-201,72,212,Cotización registrada
+I0072,2026-08-03,15:10,Teléfono,C004,Cliente recurrente,,E04,Estado del pedido,Q001,SU-302,12,,Informado
+I0073,2026-08-03,15:52,WhatsApp,C002,Cliente recurrente,,E04,Estado del pedido,Q020,MO-201,5,,Informado tras llamar a bodega
+I0074,2026-08-04,12:47,Teléfono,,Perfil de Google,CMP-04,E03,Consulta de disponibilidad,,RE-501,0,0,Precio informado verbalmente
+I0075,2026-08-04,13:58,WhatsApp,C003,Cliente recurrente,,E05,Solicitud de cotización,Q051,EL-402,48,48,Cotización registrada
+I0076,2026-08-05,15:34,Instagram,,Pauta Instagram,CMP-02,E04,Consulta de precio,,FR-101,240,,Respondida sin cotización
+I0077,2026-08-05,16:05,Teléfono,C003,Cliente recurrente,,E04,Reclamo o garantía,Q051,EL-402,20,,Registrada como PQR-02
+I0078,2026-08-06,16:52,WhatsApp,C003,Contacto saliente,,E04,Seguimiento postventa,Q057,MO-202,,,Sin respuesta del cliente
+I0079,2026-08-06,21:14,Instagram,,Pauta Instagram,CMP-02,E04,Consulta de compatibilidad,,EL-401,746,,Derivada a WhatsApp
+I0080,2026-08-07,08:11,WhatsApp,C003,Cliente recurrente,,E05,Solicitud de cotización,Q072,FR-101,48,188,Cotización registrada
+I0081,2026-08-07,12:19,WhatsApp,C003,Cliente recurrente,,E05,Estado del pedido,Q072,FR-101,75,,Informado
+I0082,2026-08-08,06:50,WhatsApp,C011,Cliente recurrente,,E05,Solicitud de cotización,Q092,EL-401,390,390,Cotización registrada
+I0083,2026-08-08,10:11,WhatsApp,C006,No registrado,,E04,Solicitud de cotización,Q077,FR-101,150,,Cotización registrada
+I0084,2026-08-08,11:06,Instagram,,Pauta Instagram,CMP-02,E04,Consulta de precio,,FR-101,2880,,Derivada a WhatsApp
+I0085,2026-08-08,12:20,WhatsApp,C009,Pauta Instagram,CMP-02,E04,Solicitud de cotización,Q013,MO-202,1200,1295,Cotización registrada
+I0086,2026-08-09,12:38,WhatsApp,C009,No registrado,,E05,Estado del pedido,Q040,FR-101,130,,Informado
+I0087,2026-08-09,12:59,WhatsApp,C009,Pauta Instagram,CMP-02,E04,Solicitud de cotización,Q040,FR-101,1200,1225,Cotización registrada
+I0088,2026-08-09,18:22,WhatsApp,C004,Cliente recurrente,,E04,Solicitud de cotización,Q089,FR-102,840,1500,Cotización registrada
+I0089,2026-08-10,06:30,WhatsApp,C007,Cliente recurrente,,E04,Solicitud de cotización,Q050,RE-501,390,450,Cotización registrada
+I0090,2026-08-10,12:22,WhatsApp,C011,Cliente recurrente,,E04,Solicitud de cotización,Q081,SU-301,1200,1800,Cotización registrada
+I0091,2026-08-10,12:30,Mostrador,C002,Cliente recurrente,,E03,Solicitud de cotización,Q095,FR-102,1200,2400,Cotización registrada
+I0092,2026-08-10,16:42,WhatsApp,C007,No registrado,,E05,Estado del pedido,Q050,RE-501,12,,Informado
+I0093,2026-08-11,07:30,Facebook,,Publicación Facebook,CMP-05,E04,Consulta de precio,,FR-101,1440,,Derivada a WhatsApp
+I0094,2026-08-11,19:20,Facebook,,Publicación Facebook,CMP-05,,Consulta de compatibilidad,,RE-501,,,Sin respuesta registrada
+I0095,2026-08-12,07:51,WhatsApp,C001,No registrado,,E05,Solicitud de cotización,Q031,SU-301,240,,Cotización registrada
+I0096,2026-08-12,08:10,Teléfono,,Perfil de Google,CMP-04,E03,Consulta de disponibilidad,,FI-601,0,0,Precio informado verbalmente
+I0097,2026-08-12,09:41,WhatsApp,C009,Pauta Instagram,CMP-02,E04,Solicitud de cotización,Q044,EL-401,24,164,Cotización registrada
+I0098,2026-08-12,13:38,WhatsApp,C009,No registrado,,E04,Reclamo o garantía,Q040,FR-101,20,,Registrada como PQR-10
+I0099,2026-08-13,08:29,WhatsApp,C004,Cliente recurrente,,E05,Consulta de disponibilidad,,SU-302,15,,Sin disponibilidad informada
+I0100,2026-08-13,15:20,Instagram,,Pauta Instagram,CMP-02,,Consulta de precio,,EL-401,,,Sin respuesta registrada
+I0101,2026-08-15,09:02,WhatsApp,C002,Cliente recurrente,,E04,Consulta de disponibilidad,,EL-401,15,,Sin disponibilidad informada
+I0102,2026-08-15,15:24,Teléfono,,Perfil de Google,CMP-04,E05,Consulta de precio,,FI-602,0,,Sin disponibilidad informada
+I0103,2026-08-16,07:14,WhatsApp,C007,No registrado,,E04,Solicitud de cotización,Q068,RE-502,240,380,Cotización registrada
+I0104,2026-08-16,19:40,Facebook,,Publicación Facebook,CMP-05,E04,Consulta de precio,,SU-301,240,,Respondida sin cotización
+I0105,2026-08-16,22:16,WhatsApp,C008,No registrado,,E04,Solicitud de cotización,Q018,EL-401,540,600,Cotización registrada
+I0106,2026-08-17,08:48,Mostrador,C001,Cliente recurrente,,E03,Solicitud de cotización,Q017,RE-501,72,72,Cotización registrada
+I0107,2026-08-18,05:49,WhatsApp,C007,Cliente recurrente,,E04,Solicitud de cotización,Q088,SU-302,390,450,Cotización registrada
+I0108,2026-08-18,06:27,Teléfono,C012,Referido,,E03,Solicitud de cotización,Q084,EL-401,390,1590,Cotización registrada
+I0109,2026-08-18,09:24,WhatsApp,C004,Cliente recurrente,,E05,Consulta de disponibilidad,,RE-501,300,,Sin disponibilidad informada
+I0110,2026-08-18,17:22,Teléfono,C001,Cliente recurrente,,E05,Reclamo o garantía,Q017,RE-501,20,,Registrada como PQR-04
+I0111,2026-08-19,08:12,WhatsApp,C002,Cliente recurrente,,E04,Solicitud de cotización,Q014,FR-101,24,,Cotización registrada
+I0112,2026-08-19,22:09,WhatsApp,C005,Referido,,E04,Solicitud de cotización,Q046,RE-502,540,600,Cotización registrada
+I0113,2026-08-21,12:51,Mostrador,C010,Perfil de Google,CMP-04,E03,Solicitud de cotización,Q004,EL-402,48,,Cotización registrada
+I0114,2026-08-21,18:51,WhatsApp,C001,Cliente recurrente,,E03,Consulta de disponibilidad,,SU-302,30,30,Precio informado sin registro
+I0115,2026-08-22,16:30,Facebook,,Publicación Facebook,CMP-05,,Consulta de precio,,,,,Sin respuesta registrada
+I0116,2026-08-23,08:27,WhatsApp,C003,Difusión WhatsApp talleres,CMP-03,E05,Solicitud de cotización,Q096,EL-401,240,265,Cotización registrada
+I0117,2026-08-23,21:57,WhatsApp,C010,Perfil de Google,CMP-04,E04,Solicitud de cotización,Q010,FR-102,540,540,Cotización registrada
+I0118,2026-08-24,06:24,Instagram,C001,Cliente recurrente,,E04,Solicitud de cotización,Q012,SU-302,390,415,Cotización registrada
+I0119,2026-08-24,15:54,Teléfono,,Perfil de Google,CMP-04,E03,Consulta de disponibilidad,,FI-601,0,0,Precio informado verbalmente
+I0120,2026-08-25,11:53,Teléfono,,Perfil de Google,CMP-04,,Consulta de precio,,MO-202,,,Llamada no contestada
+I0121,2026-08-26,12:00,WhatsApp,C007,Contacto saliente,,E05,Seguimiento postventa,Q068,RE-502,,,Cliente satisfecho
+I0122,2026-08-26,16:38,Teléfono,,Perfil de Google,CMP-04,E03,Consulta de compatibilidad,,MO-202,0,0,Precio informado verbalmente
+I0123,2026-08-26,20:17,Instagram,,Publicación Instagram,CMP-05,,Consulta de precio,,FR-101,,,Sin respuesta registrada
+I0124,2026-08-27,09:03,Mostrador,C004,Cliente recurrente,,E03,Solicitud de cotización,Q087,FR-101,840,840,Cotización registrada
+I0125,2026-08-27,10:11,Mostrador,C003,Cliente recurrente,,E03,Solicitud de cotización,Q021,RE-501,24,24,Cotización registrada
+I0126,2026-08-27,13:44,WhatsApp,C004,Difusión WhatsApp talleres,CMP-03,,Solicitud de cotización,Q061,FI-602,72,82,Cotización registrada
+I0127,2026-08-28,12:53,Teléfono,,Perfil de Google,CMP-04,E03,Consulta de precio,,,0,0,Precio informado verbalmente
+I0128,2026-08-28,13:44,WhatsApp,C004,Cliente recurrente,,E03,Estado del pedido,Q087,FR-101,130,,Informado
+I0129,2026-08-29,08:15,Teléfono,C008,Perfil de Google,CMP-04,E03,Solicitud de cotización,Q028,FI-602,240,240,Cotización registrada
+I0130,2026-08-29,11:17,WhatsApp,C002,Cliente recurrente,,E04,Consulta de disponibilidad,,FI-602,420,,Respondida sin cotización
+I0131,2026-08-29,13:37,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,SU-301,1100,,Derivada a WhatsApp
+I0132,2026-08-29,14:06,WhatsApp,C003,Cliente recurrente,,E03,Consulta de disponibilidad,,SU-301,420,,Respondida sin cotización
+I0133,2026-08-29,17:51,Teléfono,C008,No registrado,,E04,Estado del pedido,Q028,FI-602,40,,Informado
+I0134,2026-08-31,08:01,WhatsApp,C005,Cliente recurrente,,E04,Consulta de disponibilidad,,FR-102,15,,Respondida sin cotización
+I0135,2026-09-01,10:06,WhatsApp,C006,No registrado,,E04,Solicitud de cotización,Q041,FI-601,72,112,Cotización registrada
+I0136,2026-09-01,15:39,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,MO-201,120,,Respondida sin cotización
+I0137,2026-09-02,14:15,Correo,C006,No registrado,,E03,Reclamo o garantía,Q041,FI-601,90,,Registrada como PQR-05
+I0138,2026-09-02,17:27,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,FR-101,380,,Derivada a WhatsApp
+I0139,2026-09-03,09:41,Instagram,C008,No registrado,,,Reclamo o garantía,Q028,FI-602,,,Registrada como PQR-08
+I0140,2026-09-03,12:56,WhatsApp,C005,Referido,,E05,Solicitud de cotización,Q007,FR-102,48,143,Cotización registrada
+I0141,2026-09-04,08:45,WhatsApp,C003,Difusión WhatsApp talleres,CMP-03,E05,Solicitud de cotización,Q079,RE-502,240,240,Cotización registrada
+I0142,2026-09-04,09:35,WhatsApp,C011,Difusión WhatsApp talleres,CMP-03,E05,Solicitud de cotización,Q006,MO-202,150,245,Cotización registrada
+I0143,2026-09-04,15:32,WhatsApp,C005,Cliente recurrente,,E03,Estado del pedido,Q007,FR-102,5,,Informado tras llamar a bodega
+I0144,2026-09-04,17:23,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de disponibilidad,,FR-101,1440,,Respondida sin cotización
+I0145,2026-09-04,17:42,Facebook,,Publicación Facebook,CMP-05,,Consulta de precio,,RE-501,,,Sin respuesta registrada
+I0146,2026-09-04,18:04,Instagram,,Publicación Instagram,CMP-05,,Consulta de precio,,EL-401,,,Sin respuesta registrada
+I0147,2026-09-05,07:56,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,FR-101,240,,Derivada a WhatsApp
+I0148,2026-09-05,09:05,WhatsApp,C006,Publicación Instagram,CMP-05,E04,Solicitud de cotización,Q015,SU-301,72,3035,Cotización registrada
+I0149,2026-09-05,11:45,Teléfono,C001,Cliente recurrente,,E05,Consulta de disponibilidad,,SU-301,0,,Respondida sin cotización
+I0150,2026-09-07,05:49,WhatsApp,C002,Cliente recurrente,,E04,Solicitud de cotización,Q064,FI-601,390,400,Cotización registrada
+I0151,2026-09-07,07:14,Correo,C007,Referido,,E05,Solicitud de cotización,Q085,EL-401,240,240,Cotización registrada
+I0152,2026-09-07,10:39,WhatsApp,C002,Cliente recurrente,,E05,Estado del pedido,Q064,FI-601,25,,Informado
+I0153,2026-09-07,11:46,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de compatibilidad,,,240,,Derivada a WhatsApp
+I0154,2026-09-07,13:40,WhatsApp,C008,No registrado,,E04,Solicitud de cotización,Q052,SU-302,24,24,Cotización registrada
+I0155,2026-09-07,14:29,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de compatibilidad,,FI-601,240,,Respondida sin cotización
+I0156,2026-09-08,09:29,Facebook,,Publicación Facebook,CMP-05,E04,Consulta de disponibilidad,,FI-601,2160,,Derivada a WhatsApp
+I0157,2026-09-08,14:15,WhatsApp,C002,Cliente recurrente,,E05,Consulta de disponibilidad,,RE-501,90,,Sin disponibilidad informada
+I0158,2026-09-08,15:17,WhatsApp,C007,Referido,,E04,Solicitud de cotización,Q022,EL-401,150,190,Cotización registrada
+I0159,2026-09-09,10:41,Teléfono,,Perfil de Google,CMP-04,,Consulta de compatibilidad,,,,,Llamada no contestada
+I0160,2026-09-09,14:15,WhatsApp,C007,No registrado,,E04,Estado del pedido,Q022,EL-401,40,,Informado
+I0161,2026-09-09,16:45,WhatsApp,C005,Cliente recurrente,,E05,Solicitud de cotización,Q090,RE-501,1200,1200,Cotización registrada
+I0162,2026-09-09,17:29,WhatsApp,C011,Cliente recurrente,,E05,Consulta de disponibilidad,,MO-202,420,,Respondida sin cotización
+I0163,2026-09-10,07:40,WhatsApp,C004,Difusión WhatsApp talleres,CMP-03,E05,Solicitud de cotización,Q059,MO-202,72,72,Cotización registrada
+I0164,2026-09-10,08:15,WhatsApp,C001,Cliente recurrente,,E05,Consulta de disponibilidad,,RE-501,30,,Sin disponibilidad informada
+I0165,2026-09-10,10:38,WhatsApp,C010,No registrado,,E04,Solicitud de cotización,Q049,MO-202,48,88,Cotización registrada
+I0166,2026-09-11,08:06,WhatsApp,C004,Cliente recurrente,,E04,Reclamo o garantía,Q059,MO-202,90,,Registrada como PQR-06
+I0167,2026-09-12,13:49,WhatsApp,C004,Difusión WhatsApp talleres,CMP-03,E05,Solicitud de cotización,Q066,FI-602,48,88,Cotización registrada
+I0168,2026-09-12,14:16,Teléfono,C004,Cliente recurrente,,E03,Estado del pedido,Q066,FI-602,130,,Informado tras llamar a bodega
+I0169,2026-09-12,18:18,WhatsApp,C007,Cliente recurrente,,E04,Solicitud de cotización,Q024,EL-402,840,2880,Cotización registrada
+I0170,2026-09-13,12:32,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,,2160,,Derivada a WhatsApp
+I0171,2026-09-13,14:07,Teléfono,C005,Cliente recurrente,,E03,Consulta de disponibilidad,,MO-202,0,0,Precio informado sin registro
+I0172,2026-09-13,15:10,Teléfono,C010,Perfil de Google,CMP-04,E03,Solicitud de cotización,Q005,FI-601,72,,Cotización registrada
+I0173,2026-09-14,11:58,Correo,C008,No registrado,,E02,Solicitud de cotización,Q043,RE-502,72,72,Cotización registrada
+I0174,2026-09-14,18:07,WhatsApp,C001,Cliente recurrente,,E05,Consulta de disponibilidad,,EL-401,420,,Sin disponibilidad informada
+I0175,2026-09-16,13:16,Instagram,C004,Cliente recurrente,,,Solicitud de cotización,Q094,FI-602,1200,1340,Cotización registrada
+I0176,2026-09-16,20:32,Facebook,,Publicación Facebook,CMP-05,E04,Consulta de compatibilidad,,FR-101,380,,Derivada a WhatsApp
+I0177,2026-09-16,20:45,Instagram,,Publicación Instagram,CMP-05,,Consulta de compatibilidad,,EL-401,,,Sin respuesta registrada
+I0178,2026-09-17,23:22,Teléfono,C001,Cliente recurrente,,E05,Solicitud de cotización,Q019,MO-202,540,540,Cotización registrada
+I0179,2026-09-19,06:01,Instagram,C002,Cliente recurrente,,E04,Solicitud de cotización,Q037,FI-602,390,390,Cotización registrada
+I0180,2026-09-19,10:45,WhatsApp,C009,Publicación Instagram,CMP-05,E04,Solicitud de cotización,Q075,EL-402,24,164,Cotización registrada
+I0181,2026-09-19,13:30,WhatsApp,C002,Cliente recurrente,,E04,Solicitud de cotización,Q086,RE-502,1200,1200,Cotización registrada
+I0182,2026-09-19,20:22,Instagram,,Publicación Instagram,CMP-05,,Consulta de compatibilidad,,RE-501,,,Sin respuesta registrada
+I0183,2026-09-20,09:52,WhatsApp,C002,Cliente recurrente,,E04,Reclamo o garantía,Q086,RE-502,240,,Registrada como PQR-09
+I0184,2026-09-20,15:39,WhatsApp,C010,Contacto saliente,,E05,Seguimiento postventa,Q049,MO-202,,,Cliente satisfecho
+I0185,2026-09-21,10:19,WhatsApp,C003,Cliente recurrente,,E05,Solicitud de cotización,Q071,RE-502,72,112,Cotización registrada
+I0186,2026-09-21,14:53,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,EL-401,1440,,Derivada a WhatsApp
+I0187,2026-09-21,15:35,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,EL-401,240,,Respondida sin cotización
+I0188,2026-09-22,07:10,Mostrador,C011,Cliente recurrente,,E05,Consulta de disponibilidad,,SU-301,0,0,Precio informado sin registro
+I0189,2026-09-23,10:04,WhatsApp,C001,Cliente recurrente,,E05,Solicitud de cotización,Q070,MO-202,24,34,Cotización registrada
+I0190,2026-09-23,15:13,Teléfono,,Perfil de Google,CMP-04,E05,Consulta de disponibilidad,,FI-602,0,0,Precio informado verbalmente
+I0191,2026-09-23,22:16,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de disponibilidad,,,720,,Derivada a WhatsApp
+I0192,2026-09-23,22:41,WhatsApp,C012,Referido,,E04,Solicitud de cotización,Q067,RE-501,540,680,Cotización registrada
+I0193,2026-09-24,10:29,WhatsApp,C007,No registrado,,E05,Reclamo o garantía,Q085,EL-401,240,,Registrada como PQR-07
+I0194,2026-09-24,16:20,Teléfono,,Perfil de Google,CMP-04,E05,Consulta de precio,,EL-402,0,,Sin disponibilidad informada
+I0195,2026-09-25,13:27,Facebook,,Publicación Facebook,CMP-05,E04,Consulta de precio,,,2160,,Respondida sin cotización
+I0196,2026-09-25,21:49,Teléfono,C011,No registrado,,E05,Solicitud de cotización,Q036,RE-502,540,540,Cotización registrada
+I0197,2026-09-26,08:35,WhatsApp,C003,Cliente recurrente,,E04,Solicitud de cotización,Q009,RE-501,240,265,Cotización registrada
+I0198,2026-09-26,09:49,Instagram,,Publicación Instagram,CMP-05,E04,Consulta de precio,,EL-401,720,,Respondida sin cotización
+I0199,2026-09-26,13:51,WhatsApp,C009,Contacto saliente,,E05,Seguimiento postventa,Q075,EL-402,,,Sin respuesta del cliente
+I0200,2026-09-29,10:28,WhatsApp,C009,No registrado,,E05,Estado del pedido,Q047,MO-202,5,,Informado
+I0201,2026-09-29,13:15,WhatsApp,C009,No registrado,,E04,Solicitud de cotización,Q047,MO-202,1200,1295,Cotización registrada
+I0202,2026-09-30,14:44,Teléfono,C007,Cliente recurrente,,E03,Solicitud de cotización,Q076,MO-202,24,24,Cotización registrada
+I0203,2026-09-30,14:55,Teléfono,C004,Cliente recurrente,,E03,Consulta de disponibilidad,,EL-401,0,0,Precio informado sin registro
+I0204,2026-10-03,15:22,WhatsApp,C003,Contacto saliente,,E04,Seguimiento postventa,Q071,RE-502,,,Cliente satisfecho

@@ -1,0 +1,13 @@
+﻿sku,producto,categoria,ubicacion,stock_registrado,stock_fisico,diferencia,stock_minimo,tiempo_reposicion_dias,costo_promedio_cop,ultima_actualizacion_hoja,fecha_conteo_fisico,unidades_vendidas_jul_sep
+FR-101,Pastillas de freno delanteras,Frenos,Estantería A-1,28,12,-16,15,3,82000,2026-09-29,2026-09-30,6
+FR-102,Disco de freno ventilado,Frenos,Estantería A-2,12,9,-3,6,5,127000,2026-09-29,2026-09-30,3
+MO-201,Filtro de aceite,Motor,Estantería B-1,65,18,-47,20,7,28000,2026-09-12,2026-09-30,8
+MO-202,Kit de distribución,Motor,Estantería B-2,7,8,1,4,7,281000,2026-09-30,2026-09-30,21
+SU-301,Amortiguador delantero,Suspensión,Estantería C-1,19,11,-8,8,7,180000,2026-09-26,2026-09-30,0
+SU-302,Rótula de dirección,Suspensión,Estantería C-2,22,10,-12,8,3,62000,2026-09-26,2026-09-30,10
+EL-401,Batería 12V 60Ah,Eléctrico,Jaula D (bajo llave)-1,9,7,-2,8,10,277000,2026-09-19,2026-09-30,20
+EL-402,Alternador,Eléctrico,Jaula D (bajo llave)-2,4,5,1,2,7,497000,2026-09-30,2026-09-30,2
+RE-501,Radiador,Refrigeración,Estantería E-1,8,6,-2,4,10,314000,2026-09-26,2026-09-30,10
+RE-502,Termostato,Refrigeración,Estantería E-2,34,12,-22,10,10,50000,2026-09-05,2026-09-30,8
+FI-601,Filtro de aire,Filtros,Estantería F-1,45,15,-30,15,10,34000,2026-09-12,2026-09-30,12
+FI-602,Filtro de combustible,Filtros,Estantería F-2,31,14,-17,10,3,39000,2026-09-29,2026-09-30,13

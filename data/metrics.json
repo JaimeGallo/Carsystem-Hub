@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "titulo": "Carsystem Hub · Dashboard Admin",
+    "periodo": "Julio – septiembre 2026 (Expediente Q3)",
+    "empresa": "Carsystem Repuestos S.A.S.",
+    "fuente": "9 bases CSV del Centro de Inteligencia (caso educativo Estud-IA)",
+    "nota": "Datos ficticios del bootcamp. Vista gerencial/comercial para seguimiento de métricas."
+  },
+  "kpis": {
+    "cotizaciones": 96,
+    "ganadas": 44,
+    "perdidas": 52,
+    "tasa_cierre_pct": 45.8,
+    "ventas": 44,
+    "valor_ventas_cop": 27515000,
+    "ticket_promedio_cop": 625341,
+    "clientes": 12,
+    "talleres": 6,
+    "particulares": 6,
+    "mediana_horas_respuesta": 4.0,
+    "promedio_horas_respuesta": 6.58,
+    "skus": 12,
+    "inventario_descuadres": 12,
+    "skus_bajo_minimo": 3,
+    "pqr": 10,
+    "interacciones": 204,
+    "campanas": 5,
+    "publicaciones": 22,
+    "cotizaciones_con_origen_pct": 64.2
+  },
+  "cotizaciones_por_canal": {
+    "WhatsApp": 56,
+    "Mostrador": 15,
+    "Teléfono": 13,
+    "Instagram": 6,
+    "Correo": 6
+  },
+  "motivos_perdida": {
+    "Precio": 13,
+    "Compró a competidor": 10,
+    "Respuesta tardía": 10,
+    "Sin seguimiento": 7,
+    "Sin disponibilidad": 7,
+    "No registrado": 5
+  },
+  "segmentos_clientes": {
+    "Taller": 6,
+    "Particular": 6
+  },
+  "interacciones_por_canal": {
+    "WhatsApp": 97,
+    "Teléfono": 38,
+    "Instagram": 36,
+    "Mostrador": 16,
+    "Facebook": 10,
+    "Correo": 7
+  },
+  "origen_contacto": {
+    "Cliente recurrente": 76,
+    "No registrado": 34,
+    "Publicación Instagram": 23,
+    "Perfil de Google": 22,
+    "Pauta Instagram": 19,
+    "Publicación Facebook": 10,
+    "Referido": 8,
+    "Contacto saliente": 6,
+    "Difusión WhatsApp talleres": 6
+  },
+  "pqr_por_tipo": {
+    "Garantía": 2,
+    "Reclamo": 3,
+    "Queja": 3,
+    "Petición": 2
+  },
+  "pqr_por_estado": {
+    "Cerrada": 8,
+    "Abierta": 2
+  },
+  "cotizaciones_por_mes": {
+    "2026-07": {
+      "total": 33,
+      "ganadas": 13,
+      "perdidas": 20
+    },
+    "2026-08": {
+      "total": 35,
+      "ganadas": 15,
+      "perdidas": 20
+    },
+    "2026-09": {
+      "total": 28,
+      "ganadas": 16,
+      "perdidas": 12
+    }
+  },
+  "inventario": [
+    {
+      "sku": "MO-201",
+      "producto": "Filtro de aceite",
+      "categoria": "Motor",
+      "stock_registrado": 65,
+      "stock_fisico": 18,
+      "diferencia": -47,
+      "stock_minimo": 20,
+      "vendidas": 8
+    },
+    {
+      "sku": "FI-601",
+      "producto": "Filtro de aire",
+      "categoria": "Filtros",
+      "stock_registrado": 45,
+      "stock_fisico": 15,
+      "diferencia": -30,
+      "stock_minimo": 15,
+      "vendidas": 12
+    },
+    {
+      "sku": "RE-502",
+      "producto": "Termostato",
+      "categoria": "Refrigeración",
+      "stock_registrado": 34,
+      "stock_fisico": 12,
+      "diferencia": -22,
+      "stock_minimo": 10,
+      "vendidas": 8
+    },
+    {
+      "sku": "FI-602",
+      "producto": "Filtro de combustible",
+      "categoria": "Filtros",
+      "stock_registrado": 31,
+      "stock_fisico": 14,
+      "diferencia": -17,
+      "stock_minimo": 10,
+      "vendidas": 13
+    },
+    {
+      "sku": "FR-101",
+      "producto": "Pastillas de freno delanteras",
+      "categoria": "Frenos",
+      "stock_registrado": 28,
+      "stock_fisico": 12,
+      "diferencia": -16,
+      "stock_minimo": 15,
+      "vendidas": 6
+    },
+    {
+      "sku": "SU-302",
+      "producto": "Rótula de dirección",
+      "categoria": "Suspensión",
+      "stock_registrado": 22,
+      "stock_fisico": 10,
+      "diferencia": -12,
+      "stock_minimo": 8,
+      "vendidas": 10
+    },
+    {
+      "sku": "SU-301",
+      "producto": "Amortiguador delantero",
+      "categoria": "Suspensión",
+      "stock_registrado": 19,
+      "stock_fisico": 11,
+      "diferencia": -8,
+      "stock_minimo": 8,
+      "vendidas": 0
+    },
+    {
+      "sku": "FR-102",
+      "producto": "Disco de freno ventilado",
+      "categoria": "Frenos",
+      "stock_registrado": 12,
+      "stock_fisico": 9,
+      "diferencia": -3,
+      "stock_minimo": 6,
+      "vendidas": 3
+    },
+    {
+      "sku": "EL-401",
+      "producto": "Batería 12V 60Ah",
+      "categoria": "Eléctrico",
+      "stock_registrado": 9,
+      "stock_fisico": 7,
+      "diferencia": -2,
+      "stock_minimo": 8,
+      "vendidas": 20
+    },
+    {
+      "sku": "RE-501",
+      "producto": "Radiador",
+      "categoria": "Refrigeración",
+      "stock_registrado": 8,
+      "stock_fisico": 6,
+      "diferencia": -2,
+      "stock_minimo": 4,
+      "vendidas": 10
+    },
+    {
+      "sku": "MO-202",
+      "producto": "Kit de distribución",
+      "categoria": "Motor",
+      "stock_registrado": 7,
+      "stock_fisico": 8,
+      "diferencia": 1,
+      "stock_minimo": 4,
+      "vendidas": 21
+    },
+    {
+      "sku": "EL-402",
+      "producto": "Alternador",
+      "categoria": "Eléctrico",
+      "stock_registrado": 4,
+      "stock_fisico": 5,
+      "diferencia": 1,
+      "stock_minimo": 2,
+      "vendidas": 2
+    }
+  ],
+  "campanas": [
+    {
+      "id": "CMP-01",
+      "nombre": "Vacaciones: revisa tus frenos",
+      "canal": "Instagram",
+      "inversion": 650000,
+      "alcance": 16409,
+      "clics": 196,
+      "contactos": 10,
+      "cotizaciones": 3,
+      "ventas": 1,
+      "valor_ventas": 59000
+    },
+    {
+      "id": "CMP-02",
+      "nombre": "Temporada de lluvias: baterías",
+      "canal": "Instagram y Facebook",
+      "inversion": 850000,
+      "alcance": 26181,
+      "clics": 312,
+      "contactos": 9,
+      "cotizaciones": 5,
+      "ventas": 2,
+      "valor_ventas": 1539000
+    },
+    {
+      "id": "CMP-03",
+      "nombre": "Descuentos por volumen para talleres",
+      "canal": "WhatsApp (lista de difusión)",
+      "inversion": 0,
+      "alcance": 142,
+      "clics": 0,
+      "contactos": 6,
+      "cotizaciones": 6,
+      "ventas": 4,
+      "valor_ventas": 2855000
+    },
+    {
+      "id": "CMP-04",
+      "nombre": "Perfil de empresa en Google",
+      "canal": "Google",
+      "inversion": 0,
+      "alcance": 6840,
+      "clics": 389,
+      "contactos": 22,
+      "cotizaciones": 8,
+      "ventas": 2,
+      "valor_ventas": 593000
+    },
+    {
+      "id": "CMP-05",
+      "nombre": "Contenido orgánico",
+      "canal": "Instagram y Facebook",
+      "inversion": 0,
+      "alcance": 19323,
+      "clics": 97,
+      "contactos": 33,
+      "cotizaciones": 5,
+      "ventas": 2,
+      "valor_ventas": 1165000
+    }
+  ],
+  "metas_orientadoras": [
+    {
+      "kpi": "% cotizaciones registradas",
+      "baseline": "Irregular / parcial",
+      "meta": "≥ 90% de contactos comerciales"
+    },
+    {
+      "kpi": "Mediana 1.ª respuesta",
+      "baseline": "4.0 h",
+      "meta": "Respuesta ágil en horario laboral"
+    },
+    {
+      "kpi": "Tasa de cierre",
+      "baseline": "45.8%",
+      "meta": "≥ 55%"
+    },
+    {
+      "kpi": "Pérdidas por tardanza / sin seguimiento",
+      "baseline": "17 casos",
+      "meta": "−50%"
+    },
+    {
+      "kpi": "Exactitud inventario (SKUs)",
+      "baseline": "12/12 descuadrados",
+      "meta": "≥ 95% coincidencia"
+    },
+    {
+      "kpi": "% cotizaciones con origen",
+      "baseline": "Incompleto",
+      "meta": "≥ 85%"
+    },
+    {
+      "kpi": "Talleres con compra recurrente",
+      "baseline": "6 en cartera muestra",
+      "meta": "Crecer base activa"
+    },
+    {
+      "kpi": "Chats en cuentas personales",
+      "baseline": "Alto (riesgo)",
+      "meta": "0 clientes activos en celulares personales"
+    }
+  ]
+}

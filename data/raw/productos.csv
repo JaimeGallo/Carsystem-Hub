@@ -1,0 +1,13 @@
+﻿sku,producto,categoria,precio_cop,marca,referencia_fabricante,compatibilidad,especificacion,garantia_meses,proveedor
+FR-101,Pastillas de freno delanteras,Frenos,128000,Frenotec,FT-D1729,"Mazda 3 (2014–2019); Mazda 2 (2015–2020); CX-30 (2020–2022)",Juego x4 · compuesto semimetálico · con sensor acústico,6,Distribuidora Andina de Frenos
+FR-102,Disco de freno ventilado,Frenos,198000,Frenotec,FT-DV2580,"Renault Logan y Sandero (2013–2020); Duster 4x2 (2012–2019)",Unidad · diámetro 259 mm · ventilado,6,Distribuidora Andina de Frenos
+MO-201,Filtro de aceite,Motor,42000,Filtrex,FX-O3416,"Chevrolet Spark, Sail y Aveo; Renault 1.4/1.6 (rosca 3/4-16 UNF)",Unidad · rosca 3/4-16 · válvula antidrenaje,3,Importadora Filtros del Valle
+MO-202,Kit de distribución,Motor,420000,Motrix,MX-KT1400,"Chevrolet Sail 1.4 (2011–2019); Aveo 1.4/1.6 (2008–2017)",Kit · correa + tensor + polea guía,12,Motrix Colombia
+SU-301,Amortiguador delantero,Suspensión,286000,Suspenflex,SF-A3320,"Renault Sandero y Logan (2012–2019) · delantero, aplica ambos lados",Unidad · tipo McPherson · gas,12,Suspenflex Andina
+SU-302,Rótula de dirección,Suspensión,98000,Suspenflex,SF-R0117,Chevrolet Spark GT y Beat (2011–2021),Unidad · rótula inferior · con tuerca,6,Suspenflex Andina
+EL-401,Batería 12V 60Ah,Eléctrico,385000,Voltara,VT-60-NS,Varios modelos · polaridad y borne según vehículo: confirmar con asesor,12V · 60Ah · 500 CCA · libre de mantenimiento,12,Voltara Baterías
+EL-402,Alternador,Eléctrico,690000,Voltara,VT-ALT90-S,Chevrolet Sail 1.4 (2013–2019) · conector de 3 pines,90A · 12V · polea de 6 canales,6,Voltara Baterías
+RE-501,Radiador,Refrigeración,475000,Termocar,TC-R1102,Chevrolet Spark GT y Beat (2011–2020) · transmisión mecánica,Unidad · aluminio/plástico · 2 filas,6,Termocar S.A.S.
+RE-502,Termostato,Refrigeración,76000,Termocar,TC-T0089,Renault motor K4M 1.6 16V,Unidad · apertura 89 °C · con empaque,3,Termocar S.A.S.
+FI-601,Filtro de aire,Filtros,59000,Filtrex,FX-A2215,"Renault Logan, Sandero y Duster 1.6",Unidad · panel · papel de alta retención,3,Importadora Filtros del Valle
+FI-602,Filtro de combustible,Filtros,67000,Filtrex,FX-C0710,Chevrolet Sail y Aveo · filtro en línea,Unidad · metálico · conexión rápida,3,Importadora Filtros del Valle

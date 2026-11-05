@@ -1,0 +1,11 @@
+﻿pqr_id,fecha,cliente_id,venta_id,cotizacion_id,sku,tipo,canal,descripcion,estado,dias_resolucion,responsable
+PQR-01,2026-07-13,C011,V040,Q080,EL-401,Garantía,WhatsApp,Una de las cuatro baterías no sostiene la carga después de dos días de instalada.,Cerrada,6,E06
+PQR-02,2026-08-05,C003,V024,Q051,EL-402,Reclamo,Teléfono,El alternador entregado tiene un conector diferente al del vehículo del cliente. Se recogió y se cambió.,Cerrada,3,E03
+PQR-03,2026-07-29,C012,V028,Q058,FI-601,Queja,WhatsApp,El cliente indica que no le informaron el valor del domicilio antes de enviar el pedido.,Cerrada,2,E02
+PQR-04,2026-08-18,C001,V007,Q017,RE-501,Reclamo,Teléfono,Se confirmaron dos radiadores y en la entrega llegó uno. Bodega no encontró la segunda unidad registrada en la hoja.,Cerrada,4,E06
+PQR-05,2026-09-02,C006,V017,Q041,FI-601,Petición,Correo,Solicita reexpedir la factura electrónica con otro número de documento.,Cerrada,1,E08
+PQR-06,2026-09-11,C004,V029,Q059,MO-202,Queja,WhatsApp,El pedido se prometió para la ruta de la mañana y llegó a las 4:10 p. m. El vehículo quedó un día más en el taller.,Cerrada,1,E07
+PQR-07,2026-09-24,C007,V042,Q085,EL-401,Garantía,WhatsApp,Batería con descarga rápida. Pendiente prueba de carga con el proveedor.,Abierta,,E06
+PQR-08,2026-09-03,C008,V012,Q028,FI-602,Petición,Instagram,Pregunta si el filtro comprado sirve también para otro vehículo de la familia. No hay respuesta registrada.,Abierta,,
+PQR-09,2026-09-20,C002,,Q086,RE-502,Queja,WhatsApp,"El cliente escribió el sábado después del cierre y recibió respuesta al día siguiente; manifiesta que resolvió con otro proveedor.",Cerrada,0,E02
+PQR-10,2026-08-12,C009,V016,Q040,FR-101,Reclamo,WhatsApp,Una de las cajas de pastillas llegó abierta. Se reemplazó en la siguiente ruta.,Cerrada,5,E07

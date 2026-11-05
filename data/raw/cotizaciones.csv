@@ -1,0 +1,97 @@
+﻿cotizacion_id,fecha,cliente_id,sku,cantidad,canal,horas_respuesta,estado,motivo_perdida
+Q001,2026-08-03,C004,SU-302,2,WhatsApp,4,Ganada,
+Q002,2026-07-21,C009,FI-601,1,Teléfono,1.2,Ganada,
+Q003,2026-07-16,C010,SU-302,4,WhatsApp,4,Ganada,
+Q004,2026-08-21,C010,EL-402,1,Mostrador,0.8,Perdida,No registrado
+Q005,2026-09-13,C010,FI-601,4,Teléfono,1.2,Perdida,No registrado
+Q006,2026-09-04,C011,MO-202,3,WhatsApp,2.5,Ganada,
+Q007,2026-09-03,C005,FR-102,1,WhatsApp,0.8,Ganada,
+Q008,2026-07-04,C003,FI-602,4,WhatsApp,20,Perdida,Sin seguimiento
+Q009,2026-09-26,C003,RE-501,4,WhatsApp,4,Ganada,
+Q010,2026-08-23,C010,FR-102,4,WhatsApp,9,Perdida,Compró a competidor
+Q011,2026-07-09,C010,MO-201,4,WhatsApp,4,Perdida,Respuesta tardía
+Q012,2026-08-24,C001,SU-302,3,Instagram,6.5,Perdida,Precio
+Q013,2026-08-08,C009,MO-202,1,WhatsApp,20,Perdida,Precio
+Q014,2026-08-19,C002,FR-101,3,WhatsApp,0.4,Perdida,Compró a competidor
+Q015,2026-09-05,C006,SU-301,2,WhatsApp,1.2,Perdida,Respuesta tardía
+Q016,2026-08-02,C009,SU-301,3,WhatsApp,2.5,Perdida,Precio
+Q017,2026-08-17,C001,RE-501,2,Mostrador,1.2,Ganada,
+Q018,2026-08-16,C008,EL-401,4,WhatsApp,9,Perdida,Precio
+Q019,2026-09-17,C001,MO-202,1,Teléfono,9,Perdida,Precio
+Q020,2026-08-03,C002,MO-201,4,WhatsApp,1.2,Ganada,
+Q021,2026-08-27,C003,RE-501,3,Mostrador,0.4,Perdida,Precio
+Q022,2026-09-08,C007,EL-401,2,WhatsApp,2.5,Ganada,
+Q023,2026-07-19,C001,FI-601,1,Mostrador,6.5,Perdida,Compró a competidor
+Q024,2026-09-12,C007,EL-402,3,WhatsApp,14,Perdida,Respuesta tardía
+Q025,2026-07-08,C011,FI-601,4,Mostrador,20,Perdida,Respuesta tardía
+Q026,2026-07-15,C001,FI-601,3,Mostrador,0.8,Ganada,
+Q027,2026-07-06,C003,EL-401,4,Correo,1.2,Ganada,
+Q028,2026-08-29,C008,FI-602,3,Teléfono,4,Ganada,
+Q029,2026-08-01,C005,FI-601,2,Teléfono,20,Ganada,
+Q030,2026-07-01,C006,FR-102,3,Correo,9,Perdida,Precio
+Q031,2026-08-12,C001,SU-301,4,WhatsApp,4,Perdida,Compró a competidor
+Q032,2026-07-04,C011,FR-102,4,Mostrador,6.5,Perdida,Compró a competidor
+Q033,2026-08-02,C011,EL-401,4,Mostrador,0.4,Ganada,
+Q034,2026-08-01,C007,RE-501,3,Mostrador,2.5,Perdida,Sin disponibilidad
+Q035,2026-07-10,C004,FR-102,2,WhatsApp,20,Ganada,
+Q036,2026-09-25,C011,RE-502,1,Teléfono,9,Perdida,No registrado
+Q037,2026-09-19,C002,FI-602,4,Instagram,6.5,Perdida,Sin disponibilidad
+Q038,2026-07-14,C010,SU-302,3,WhatsApp,6.5,Perdida,Compró a competidor
+Q039,2026-07-07,C003,RE-502,4,Teléfono,1.2,Perdida,Precio
+Q040,2026-08-09,C009,FR-101,3,WhatsApp,20,Ganada,
+Q041,2026-09-01,C006,FI-601,1,WhatsApp,1.2,Ganada,
+Q042,2026-07-27,C009,FR-102,4,Mostrador,2.5,Perdida,Precio
+Q043,2026-09-14,C008,RE-502,3,Correo,1.2,Ganada,
+Q044,2026-08-12,C009,EL-401,3,WhatsApp,0.4,Ganada,
+Q045,2026-07-22,C005,MO-202,2,Correo,2.5,Ganada,
+Q046,2026-08-19,C005,RE-502,1,WhatsApp,9,Perdida,Sin seguimiento
+Q047,2026-09-29,C009,MO-202,4,WhatsApp,20,Ganada,
+Q048,2026-07-25,C009,FR-102,1,WhatsApp,14,Perdida,Respuesta tardía
+Q049,2026-09-10,C010,MO-202,4,WhatsApp,0.8,Ganada,
+Q050,2026-08-10,C007,RE-501,3,WhatsApp,6.5,Ganada,
+Q051,2026-08-04,C003,EL-402,1,WhatsApp,0.8,Ganada,
+Q052,2026-09-07,C008,SU-302,2,WhatsApp,0.4,Ganada,
+Q053,2026-08-01,C009,FR-102,1,WhatsApp,1.2,Perdida,Sin seguimiento
+Q054,2026-07-23,C002,EL-401,4,Teléfono,14,Perdida,Compró a competidor
+Q055,2026-07-20,C009,RE-501,3,Instagram,9,Perdida,Sin disponibilidad
+Q056,2026-07-28,C003,FI-602,1,Mostrador,0.8,Ganada,
+Q057,2026-07-27,C003,MO-202,1,WhatsApp,0.8,Ganada,
+Q058,2026-07-26,C012,FI-601,3,Teléfono,4,Ganada,
+Q059,2026-09-10,C004,MO-202,3,WhatsApp,1.2,Ganada,
+Q060,2026-07-24,C001,RE-501,4,Correo,9,Perdida,Precio
+Q061,2026-08-27,C004,FI-602,3,WhatsApp,1.2,Ganada,
+Q062,2026-07-26,C009,RE-502,4,Mostrador,4,Perdida,Sin seguimiento
+Q063,2026-07-04,C008,RE-501,3,WhatsApp,9,Perdida,Compró a competidor
+Q064,2026-09-07,C002,FI-601,2,WhatsApp,6.5,Ganada,
+Q065,2026-07-25,C008,SU-301,4,WhatsApp,9,Perdida,Respuesta tardía
+Q066,2026-09-12,C004,FI-602,2,WhatsApp,0.8,Ganada,
+Q067,2026-09-23,C012,RE-501,3,WhatsApp,9,Perdida,Sin seguimiento
+Q068,2026-08-16,C007,RE-502,3,WhatsApp,4,Ganada,
+Q069,2026-07-24,C001,MO-201,4,Instagram,4,Ganada,
+Q070,2026-09-23,C001,MO-202,4,WhatsApp,0.4,Ganada,
+Q071,2026-09-21,C003,RE-502,2,WhatsApp,1.2,Ganada,
+Q072,2026-08-07,C003,FR-101,2,WhatsApp,0.8,Ganada,
+Q073,2026-07-03,C002,FI-602,4,WhatsApp,0.4,Ganada,
+Q074,2026-07-20,C001,SU-302,1,WhatsApp,9,Perdida,Compró a competidor
+Q075,2026-09-19,C009,EL-402,1,WhatsApp,0.4,Ganada,
+Q076,2026-09-30,C007,MO-202,1,Teléfono,0.4,Perdida,Sin disponibilidad
+Q077,2026-08-08,C006,FR-101,3,WhatsApp,2.5,Perdida,No registrado
+Q078,2026-07-24,C004,SU-301,2,Mostrador,14,Perdida,Sin seguimiento
+Q079,2026-09-04,C003,RE-502,1,WhatsApp,4,Perdida,Sin disponibilidad
+Q080,2026-07-11,C011,EL-401,4,WhatsApp,1.2,Ganada,
+Q081,2026-08-10,C011,SU-301,3,WhatsApp,20,Perdida,Respuesta tardía
+Q082,2026-07-05,C009,RE-501,1,Instagram,2.5,Ganada,
+Q083,2026-07-08,C006,FR-102,4,Teléfono,1.2,Perdida,Compró a competidor
+Q084,2026-08-18,C012,EL-401,2,Teléfono,6.5,Perdida,Respuesta tardía
+Q085,2026-09-07,C007,EL-401,3,Correo,4,Ganada,
+Q086,2026-09-19,C002,RE-502,3,WhatsApp,20,Perdida,No registrado
+Q087,2026-08-27,C004,FR-101,1,Mostrador,14,Ganada,
+Q088,2026-08-18,C007,SU-302,2,WhatsApp,6.5,Ganada,
+Q089,2026-08-09,C004,FR-102,3,WhatsApp,14,Perdida,Respuesta tardía
+Q090,2026-09-09,C005,RE-501,3,WhatsApp,20,Perdida,Precio
+Q091,2026-08-02,C011,EL-402,1,WhatsApp,14,Perdida,Precio
+Q092,2026-08-08,C011,EL-401,2,WhatsApp,6.5,Perdida,Sin disponibilidad
+Q093,2026-07-11,C005,RE-502,4,Teléfono,20,Perdida,Sin disponibilidad
+Q094,2026-09-16,C004,FI-602,4,Instagram,20,Perdida,Sin seguimiento
+Q095,2026-08-10,C002,FR-102,2,Mostrador,20,Perdida,Respuesta tardía
+Q096,2026-08-23,C003,EL-401,3,WhatsApp,4,Perdida,Precio
